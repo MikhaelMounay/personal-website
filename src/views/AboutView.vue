@@ -66,6 +66,11 @@
         </div>
       </div>
     </div>
+    <div class="d-none" id="imgs-preloader">
+      <div class="d-none" v-for="img in quotes" :key="img">
+        <img :src="img['quote-img']" />
+      </div>
+    </div>
   </section>
 </template>
 
