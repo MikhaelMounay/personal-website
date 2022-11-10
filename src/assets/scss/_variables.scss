@@ -1,0 +1,43 @@
+$colors: crimson, green, rgb(148, 148, 255), rgb(197, 105, 105);
+
+$my-blue-color: skyblue;
+$my-red-color: purple;
+$main-bg-color: #212529;
+
+$color: green;
+
+:root {
+  --main-color: blue;
+}
+
+@mixin generateColors($prop, $base: "") {
+  @for $i from 1 through length($colors) {
+    &.color-#{$i} {
+      #{$prop}: #{$base} nth($list: $colors, $n: $i);
+    }
+  }
+}
+
+@mixin generateColorsTransparentize($prop, $modifieramount: 0, $base: "") {
+  @for $i from 1 through length($colors) {
+    &.color-#{$i} {
+      #{$prop}: #{$base} transparentize(nth($list: $colors, $n: $i), $modifieramount);
+    }
+  }
+}
+
+@mixin generateColorsLighten($prop, $modifieramount: 0, $base: "") {
+  @for $i from 1 through length($colors) {
+    &.color-#{$i} {
+      #{$prop}: #{$base} lighten($color: nth($list: $colors, $n: $i), $amount: $modifieramount);
+    }
+  }
+}
+
+@mixin generateColorsDarken($prop, $modifieramount: 0, $base: "") {
+  @for $i from 1 through length($colors) {
+    &.color-#{$i} {
+      #{$prop}: #{$base} darken($color: nth($list: $colors, $n: $i), $amount: $modifieramount);
+    }
+  }
+}
