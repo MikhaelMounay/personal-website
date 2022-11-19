@@ -6,14 +6,14 @@
         <div class="col-lg-8">
           <p>
             Since I have started my journey as a 13-year-old boy, I have learnt
-            various technologies till I chose to continue with web development.
+            various technologies in WEB and software development.
           </p>
           <p>
-            Now, I build successful responsive websites that are fast, easy to
-            use and maintain. The main area of my expertise is front-end
+            So far, I can build successful responsive websites that are fast,
+            easy to use and maintain. The main area of my expertise is front-end
             development, HTML, CSS, JS, building web apps, animations, and
             coding interactive layouts. That doesn't mean that I have no
-            experience in multiple other fields.
+            experience in multiple other fields :).
           </p>
           <!-- <p>
             Think we can work together ? Don't hesistate to
@@ -23,7 +23,7 @@
       </div>
       <div class="timeline color mt-5">
         <div class="year" data-year="2017" v-motion-slide-right>
-          <div class="row">
+          <div class="row g-4">
             <div class="col-lg-4">
               <div class="card w-100">
                 <div class="card-img-top">
@@ -88,7 +88,7 @@
           v-motion-slide-visible-once-right
           v-motion-slide-right
         >
-          <div class="row">
+          <div class="row g-4">
             <div class="col-lg-4">
               <div class="card">
                 <div class="card-img-top">
@@ -145,7 +145,7 @@
           </div>
         </div>
         <div class="year" data-year="2019" v-motion-slide-visible-once-right>
-          <div class="row">
+          <div class="row g-4">
             <div class="col-lg-4">
               <div class="card">
                 <div class="card-img-top">
@@ -178,7 +178,7 @@
           </div>
         </div>
         <div class="year" data-year="2020" v-motion-slide-visible-once-right>
-          <div class="row">
+          <div class="row g-4">
             <div class="col-lg-4">
               <div class="card">
                 <div class="card-img-top">
@@ -278,7 +278,7 @@
           </div>
         </div>
         <div class="year" data-year="2021" v-motion-slide-visible-once-right>
-          <div class="row">
+          <div class="row g-4">
             <div class="col-lg-4">
               <div class="card">
                 <div class="card-img-top">
@@ -354,7 +354,7 @@
           </div>
         </div>
         <div class="year" data-year="2022" v-motion-slide-visible-once-right>
-          <div class="row">
+          <div class="row g-4">
             <div class="col-lg-4">
               <div class="card">
                 <div class="card-img-top">
@@ -503,7 +503,7 @@ export default {
     &::before {
       content: attr(data-year);
       position: absolute;
-      top: 20px;
+      top: 40px;
       left: -55px;
       font-weight: bold;
       font-style: italic;
@@ -512,7 +512,7 @@ export default {
     &::after {
       content: "";
       position: absolute;
-      top: 23px;
+      top: 43px;
       left: -5px;
       width: 15px;
       height: 15px;
@@ -589,6 +589,13 @@ export default {
         }
       }
     }
+  }
+}
+
+@media (max-width: 991.98px) {
+  .timeline {
+    margin-left: 4rem;
+    margin-right: 1rem;
   }
 }
 </style>

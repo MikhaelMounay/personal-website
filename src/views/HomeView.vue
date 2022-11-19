@@ -2,14 +2,14 @@
   <section>
     <header>
       <div class="hero">
-        <div class="row h-100 g-0">
-          <div class="col-6 rightside">
+        <div class="row g-0 gx-4">
+          <div class="col-lg-6 rightside">
             <h2 class="display-5 fw-bold">Hello,</h2>
             <h1 class="display-2 fw-bold">
               I'm <span class="special color">Mikhael</span>,
             </h1>
             <h2 class="display-6">
-              <span class="typed-text color fw-bold">{{ typeValue }}</span>
+              <span class="typed-text color fw-bold fs-2">{{ typeValue }}</span>
               <span class="cursor color" :class="{ typing: typeStatus }"
                 >&nbsp;</span
               >
@@ -18,7 +18,7 @@
               >Contact me</router-link
             > -->
             <p class="life-quote" v-motion-pop :delay="3000">
-              Our life has no script. We always have a choice.
+              Our life has no script. There is always be a choice.
             </p>
             <p
               class="try-dbl"
@@ -26,14 +26,19 @@
               :delay="4500"
               @dblclick="dblclicked = true"
             >
-              Try a Double Click
+              Try a Double <span v-if="!$isMobile()">Click</span
+              ><span v-else>Tap</span>
               <span v-if="dblclicked" v-motion-pop :delay="100"
                 >anywhere, anytime</span
               >
               :)
             </p>
           </div>
-          <div class="col-6"></div>
+          <div class="col-lg-6 leftside">
+            <div class="circular-container color">
+              <!-- <img src="../assets/mikhael_img.png" alt="Mikhael Mounay" /> -->
+            </div>
+          </div>
         </div>
       </div>
     </header>
@@ -48,7 +53,7 @@ export default {
     return {
       typeValue: "",
       typeStatus: false,
-      typeArray: ["web developer", "STEMer", "gamer"],
+      typeArray: ["WEB DEVELOPER", "STEMer", "ESPORTS LOVER"],
       typingSpeed: 150,
       erasingSpeed: 100,
       newTextDelay: 2000,
@@ -104,7 +109,10 @@ export default {
 @import "../assets/scss/_variables.scss";
 
 .hero {
-  height: 100vh;
+  min-height: 100vh;
+  & > .row {
+    min-height: 100vh;
+  }
   .rightside {
     display: flex;
     flex-direction: column;
@@ -169,6 +177,59 @@ export default {
       color: #888;
       font-size: 0.9rem;
       transition: 0.2s;
+    }
+  }
+  .leftside {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .circular-container {
+      border: 3px solid;
+      border-radius: 50%;
+      @include generateColors("border-color");
+      width: 100%;
+      max-width: 400px;
+      aspect-ratio: 1;
+      background-image: url("../assets/mikhael_img.png");
+      background-size: 115%;
+      background-repeat: no-repeat;
+      background-position: top;
+      background-position-x: -20px;
+      transform: rotate(5deg);
+      transition: 0.5s;
+      margin-right: 6rem;
+      &:hover {
+        filter: contrast(115%);
+      }
+    }
+  }
+}
+
+@media (max-width: 991.98px) {
+  .hero > .row {
+    // padding-bottom: 100px;
+    .rightside {
+      margin-top: 1rem;
+    }
+    .leftside {
+      order: -1 !important;
+      padding: 0;
+      .circular-container {
+        margin-right: unset !important;
+        margin-top: 2rem;
+        width: 35%;
+      }
+    }
+  }
+}
+
+@media (max-width: 767.98px) {
+  .hero > .row {
+    .leftside {
+      .circular-container {
+        width: 60%;
+      }
     }
   }
 }

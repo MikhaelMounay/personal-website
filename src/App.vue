@@ -59,7 +59,7 @@
       <div class="indicator color"></div>
     </ul>
   </nav>
-  <main class="color">
+  <main class="color" id="main">
     <router-view :themeColor="themeColor" v-slot="{ Component }">
       <transition name="fade" mode="out-in">
         <component :is="Component"></component>
@@ -69,6 +69,8 @@
 </template>
 
 <script>
+import Hammer from "hammerjs";
+
 export default {
   data() {
     return {
@@ -102,9 +104,17 @@ export default {
     Array.from(document.getElementsByClassName("color")).forEach((element) => {
       element.classList.add(this.themeColor);
     });
-    document.addEventListener("dblclick", () => {
-      this.changeThemeColor();
-    });
+    if (!this.$isMobile()) {
+      document.addEventListener("dblclick", () => {
+        this.changeThemeColor();
+      });
+    } else {
+      const mainHammer = new Hammer(document.getElementById("main"));
+      mainHammer.on("doubletap", () => {
+        // console.log(e.type);
+        this.changeThemeColor();
+      });
+    }
   },
 };
 </script>
@@ -115,15 +125,16 @@ export default {
 
 // START: SCROLLBAR
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 7px;
 }
 
 ::-webkit-scrollbar-track {
-  background: transparent;
+  // background: transparent;
+  background: $main-bg-color;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #bbb;
+  background: #777;
   /* border-radius: 5px; */
 }
 
@@ -132,12 +143,13 @@ export default {
 }
 
 ::-webkit-scrollbar-thumb:active {
-  background: #666;
+  background: #bbb;
 }
 
 // END: SCROLLBAR
 
-html {
+html,
+body {
   overflow-x: hidden;
   user-select: none;
 }
@@ -265,6 +277,87 @@ nav {
 main {
   padding-left: 80px;
   min-height: 100vh;
+  background-color: $main-bg-color;
+}
+
+@media (max-width: 991.98px) {
+  nav {
+    top: unset !important;
+    bottom: 0 !important;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: unset;
+    padding-bottom: unset;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    transform-style: preserve-3d;
+    &::after {
+      content: "";
+      position: absolute;
+      width: 100vw;
+      height: 185px;
+      // background-color: $main-bg-color;
+      background: linear-gradient(
+        0deg,
+        $main-bg-color 0%,
+        $main-bg-color 81%,
+        rgba(0, 0, 0, 0) 100%
+      );
+      z-index: -1;
+      transform: translateZ(-1px);
+    }
+    ul {
+      flex-direction: row;
+      li {
+        display: block;
+        a {
+          flex-direction: column;
+          svg {
+            margin-top: 1.5rem;
+          }
+          span {
+            left: unset !important;
+            bottom: 27%;
+            writing-mode: initial !important;
+          }
+        }
+        a.router-link-exact-active {
+          svg {
+            margin-top: 0;
+            transform: translateY(-50%) translateX(0);
+          }
+          span {
+            opacity: 1;
+            transform: translateY(10px) translateX(0);
+          }
+        }
+        @for $i from 1 through 5 {
+          &:nth-child(#{$i}).active ~ .indicator {
+            transform: translateX(calc(60px * #{$i - 1})) translateY(0);
+          }
+        }
+      }
+      .indicator {
+        left: unset !important;
+        top: -50%;
+        &::before {
+          top: 50%;
+          left: -18px;
+          transform: none;
+        }
+        &::after {
+          top: 50%;
+          right: -18px;
+          bottom: unset !important;
+          transform: none;
+        }
+      }
+    }
+  }
+  main {
+    padding-left: unset !important;
+    padding-bottom: 130px;
+  }
 }
 
 .fade-enter-active,

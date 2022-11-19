@@ -3,14 +3,20 @@
     <div class="container">
       <h1 class="display-3 section-title color">Projects</h1>
       <div class="projects-container row g-0" v-motion-slide-right>
-        <div class="project col-lg-3" @click="showProjectViewer('STEMEgypt')">
+        <div
+          class="project col-lg-3 col-md-4 col-sm-6"
+          @click="showProjectViewer('STEMEgypt')"
+        >
           <!-- School Website -->
           <div class="project-thumb">
             <img src="../assets/stemegypt_logo.png" />
           </div>
           <div class="view-project color">View<br />Project</div>
         </div>
-        <div class="project col-lg-3" @click="showProjectViewer('YSJ')">
+        <div
+          class="project col-lg-3 col-md-4 col-sm-6"
+          @click="showProjectViewer('YSJ')"
+        >
           <!-- YSJ -->
           <div class="project-thumb">
             <!-- <img src="https://picsum.photos/600/600" /> -->
@@ -18,42 +24,60 @@
           </div>
           <div class="view-project color">View<br />Project</div>
         </div>
-        <div class="project col-lg-3" @click="showProjectViewer('IYNA')">
+        <div
+          class="project col-lg-3 col-md-4 col-sm-6"
+          @click="showProjectViewer('IYNA')"
+        >
           <!-- IYNA -->
           <div class="project-thumb">
             <img src="../assets/iyna_logo.png" />
           </div>
           <div class="view-project color">View<br />Project</div>
         </div>
-        <div class="project col-lg-3" @click="showProjectViewer('HackClub')">
+        <div
+          class="project col-lg-3 col-md-4 col-sm-6"
+          @click="showProjectViewer('HackClub')"
+        >
           <!-- Hack Club -->
           <div class="project-thumb">
             <img src="../assets/hc_logo.png" />
           </div>
           <div class="view-project color">View<br />Project</div>
         </div>
-        <div class="project col-lg-3" @click="showProjectViewer('MathCircle')">
+        <div
+          class="project col-lg-3 col-md-4 col-sm-6"
+          @click="showProjectViewer('MathCircle')"
+        >
           <!-- Math Circle -->
           <div class="project-thumb">
             <img src="../assets/mc_logo.png" />
           </div>
           <div class="view-project color">View<br />Project</div>
         </div>
-        <div class="project col-lg-3" @click="showProjectViewer('ACTTrainer')">
+        <div
+          class="project col-lg-3 col-md-4 col-sm-6"
+          @click="showProjectViewer('ACTTrainer')"
+        >
           <!-- ACT Trainer -->
           <div class="project-thumb">
             <img src="../assets/actt_logo.png" />
           </div>
           <div class="view-project color">View<br />Project</div>
         </div>
-        <div class="project col-lg-3" @click="showProjectViewer('EnRevisions')">
+        <div
+          class="project col-lg-3 col-md-4 col-sm-6"
+          @click="showProjectViewer('EnRevisions')"
+        >
           <!-- English Class Revisions Handouts/Website -->
           <div class="project-thumb">
             <img src="../assets/enrevisions_logo.png" />
           </div>
           <div class="view-project color">View<br />Project</div>
         </div>
-        <div class="project col-lg-3" @click="showProjectViewer('MUNMaadi')">
+        <div
+          class="project col-lg-3 col-md-4 col-sm-6"
+          @click="showProjectViewer('MUNMaadi')"
+        >
           <!-- MUN Maadi -->
           <div class="project-thumb">
             <img src="../assets/munmaadi_logo.png" />
@@ -69,7 +93,7 @@
           v-motion-slide-visible-once-right
           v-motion-slide-right
         >
-          <div class="col-lg-4" @click="showProjectViewer('Revilky')">
+          <div class="col-lg-4 col-sm-6" @click="showProjectViewer('Revilky')">
             <div class="card color">
               <img src="../assets/revilky_logo.png" class="card-img-top" />
               <div class="card-body">
@@ -81,7 +105,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4" @click="showProjectViewer('Kilecy')">
+          <div class="col-lg-4 col-sm-6" @click="showProjectViewer('Kilecy')">
             <div class="card color">
               <img src="../assets/kilecy_logo.png" class="card-img-top" />
               <div class="card-body">
@@ -93,7 +117,10 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4" @click="showProjectViewer('WebDevHandouts')">
+          <div
+            class="col-lg-4 col-sm-6"
+            @click="showProjectViewer('WebDevHandouts')"
+          >
             <div class="card color">
               <img src="../assets/webdev_logo.png" class="card-img-top" />
               <div class="card-body">
@@ -105,7 +132,10 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4" @click="showProjectViewer('GreenHesive')">
+          <div
+            class="col-lg-4 col-sm-6"
+            @click="showProjectViewer('GreenHesive')"
+          >
             <div class="card color">
               <img src="../assets/greenhesive_logo.png" class="card-img-top" />
               <div class="card-body">
@@ -117,7 +147,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-4 col-sm-6">
             <div class="card color fst-italic text-muted future">
               <!-- <img src="https://picsum.photos/600/600" class="card-img-top" /> -->
               <div class="card-body">
@@ -125,8 +155,11 @@
                   "Never Count On Beginnings, The Game Hasn't Started Yet!"
                 </h5>
                 <p class="card-text">
-                  @ <span class="fw-bold">D</span>ream
-                  <span class="fw-bold">College</span>
+                  @
+                  <span class="DCollege"
+                    ><span class="fw-bold">D</span>ream
+                    <span class="fw-bold">College</span></span
+                  >
                   <span class="time text-muted">Very Near Future</span>
                 </p>
               </div>
@@ -204,7 +237,7 @@
                       ></a>
                       &nbsp;&nbsp;&nbsp;
                       <a
-                        href="https://github.com/Welly0007/IYNA_WEB"
+                        href="https://github.com/Drymak/YSJ"
                         target="_blank"
                         class="color"
                         >GitHub Repository
@@ -433,7 +466,7 @@
                       ></a>
                       &nbsp;&nbsp;&nbsp;
                       <a
-                        href="https://github.com/Welly0007/IYNA_WEB"
+                        href="https://github.com/MikhaelMounay/STEM-Egypt-Hack-Club-Website"
                         target="_blank"
                         class="color"
                         >GitHub Repository
@@ -516,7 +549,7 @@
                             d="M280 80C266.7 80 256 69.25 256 56C256 42.75 266.7 32 280 32H424C437.3 32 448 42.75 448 56V200C448 213.3 437.3 224 424 224C410.7 224 400 213.3 400 200V113.9L200.1 312.1C191.6 322.3 176.4 322.3 167 312.1C157.7 303.6 157.7 288.4 167 279L366.1 80H280zM0 120C0 89.07 25.07 64 56 64H168C181.3 64 192 74.75 192 88C192 101.3 181.3 112 168 112H56C51.58 112 48 115.6 48 120V424C48 428.4 51.58 432 56 432H360C364.4 432 368 428.4 368 424V312C368 298.7 378.7 288 392 288C405.3 288 416 298.7 416 312V424C416 454.9 390.9 480 360 480H56C25.07 480 0 454.9 0 424V120z"
                           /></svg
                       ></a>
-                      &nbsp;&nbsp;&nbsp;
+                      <!-- &nbsp;&nbsp;&nbsp;
                       <a
                         href="https://github.com/Welly0007/IYNA_WEB"
                         target="_blank"
@@ -526,11 +559,10 @@
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 448 512"
                         >
-                          <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
                           <path
                             d="M280 80C266.7 80 256 69.25 256 56C256 42.75 266.7 32 280 32H424C437.3 32 448 42.75 448 56V200C448 213.3 437.3 224 424 224C410.7 224 400 213.3 400 200V113.9L200.1 312.1C191.6 322.3 176.4 322.3 167 312.1C157.7 303.6 157.7 288.4 167 279L366.1 80H280zM0 120C0 89.07 25.07 64 56 64H168C181.3 64 192 74.75 192 88C192 101.3 181.3 112 168 112H56C51.58 112 48 115.6 48 120V424C48 428.4 51.58 432 56 432H360C364.4 432 368 428.4 368 424V312C368 298.7 378.7 288 392 288C405.3 288 416 298.7 416 312V424C416 454.9 390.9 480 360 480H56C25.07 480 0 454.9 0 424V120z"
                           /></svg
-                      ></a>
+                      ></a> -->
                     </p>
                   </div>
                 </div>
@@ -839,7 +871,7 @@
             </div>
             <div class="project-details" v-show="projectToView == 'MathCircle'">
               <img
-                src="https://picsum.photos/600/600"
+                src="../assets/mc_bg.png"
                 alt="Math Circle"
                 class="project-bg"
               />
@@ -865,7 +897,7 @@
                     </p>
                     <p class="text-center">
                       <a
-                        href="https://mikhaelmounay.github.io/Maadi_STEM_MUN/"
+                        href="http://octobermathcircle.epizy.com/"
                         target="_blank"
                         class="color"
                         >Visit Website
@@ -878,7 +910,7 @@
                             d="M280 80C266.7 80 256 69.25 256 56C256 42.75 266.7 32 280 32H424C437.3 32 448 42.75 448 56V200C448 213.3 437.3 224 424 224C410.7 224 400 213.3 400 200V113.9L200.1 312.1C191.6 322.3 176.4 322.3 167 312.1C157.7 303.6 157.7 288.4 167 279L366.1 80H280zM0 120C0 89.07 25.07 64 56 64H168C181.3 64 192 74.75 192 88C192 101.3 181.3 112 168 112H56C51.58 112 48 115.6 48 120V424C48 428.4 51.58 432 56 432H360C364.4 432 368 428.4 368 424V312C368 298.7 378.7 288 392 288C405.3 288 416 298.7 416 312V424C416 454.9 390.9 480 360 480H56C25.07 480 0 454.9 0 424V120z"
                           /></svg
                       ></a>
-                      &nbsp;&nbsp;&nbsp;
+                      <!-- &nbsp;&nbsp;&nbsp;
                       <a
                         href="https://github.com/MikhaelMounay/Maadi_STEM_MUN"
                         target="_blank"
@@ -888,11 +920,10 @@
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 448 512"
                         >
-                          <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
                           <path
                             d="M280 80C266.7 80 256 69.25 256 56C256 42.75 266.7 32 280 32H424C437.3 32 448 42.75 448 56V200C448 213.3 437.3 224 424 224C410.7 224 400 213.3 400 200V113.9L200.1 312.1C191.6 322.3 176.4 322.3 167 312.1C157.7 303.6 157.7 288.4 167 279L366.1 80H280zM0 120C0 89.07 25.07 64 56 64H168C181.3 64 192 74.75 192 88C192 101.3 181.3 112 168 112H56C51.58 112 48 115.6 48 120V424C48 428.4 51.58 432 56 432H360C364.4 432 368 428.4 368 424V312C368 298.7 378.7 288 392 288C405.3 288 416 298.7 416 312V424C416 454.9 390.9 480 360 480H56C25.07 480 0 454.9 0 424V120z"
                           /></svg
-                      ></a>
+                      ></a> -->
                     </p>
                   </div>
                 </div>
@@ -1118,7 +1149,7 @@
                         class="color"
                       />
                       <p>
-                        English Class Revisions (Handouts/Website)<br /><span
+                        English Class Revisions (Handouts / Website)<br /><span
                           class="time"
                           >20/22</span
                         >
@@ -1516,6 +1547,15 @@ export default {
         // document.getElementById("project-viewer-frame").src = "";
         this.projectToView = null;
       });
+
+    window.addEventListener("popstate", (event) => {
+      event.preventDefault();
+      event.stopPropagation();
+      if (this.projectToView != null) {
+        this.projectViewer.hide();
+        history.go(1);
+      }
+    });
   },
 };
 </script>
@@ -1647,6 +1687,27 @@ p.visit-github {
             color: rgb(200, 200, 200);
             font-size: 0.85em;
             margin-top: 0.5rem;
+          }
+          .DCollege {
+            position: relative;
+            &:hover {
+              text-decoration: line-through;
+            }
+            &:hover::after {
+              content: "Davidson College";
+              height: fit-content;
+              width: fit-content;
+              min-width: 100%;
+              white-space: pre;
+              // background-color: red;
+              position: absolute;
+              top: -110%;
+              right: -5px;
+              padding-bottom: 2px;
+              text-align: center;
+              color: rgb(178, 178, 178);
+              font-weight: bold;
+            }
           }
         }
       }
@@ -1783,6 +1844,44 @@ p.visit-github {
                   color: #ccc;
                 }
               }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 991.98px) {
+  .projects-container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-top: 2rem;
+  }
+  .other-projects {
+    & > .row {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+    p.background-title {
+      right: -60px;
+    }
+  }
+  .project-viewer {
+    .modal-dialog {
+      .modal-content {
+        .modal-body {
+          .project-details {
+            .project-bg ~ .row {
+              padding: 0.5rem;
+            }
+            .overview {
+              margin-top: 2rem;
+            }
+            .used-techs {
+              margin-top: 2.5rem;
+              margin-bottom: 2rem;
+              margin-left: 1rem;
             }
           }
         }

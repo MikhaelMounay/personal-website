@@ -11,9 +11,11 @@
             <span class="keyword">computer science</span>. I found it in the age
             of 13, and I will follow it till I RIP. So far, I've been working on
             my own to grow this passion, and I'm willing continue this work
-            while study CS abroad at my <span class="keyword">D</span>ream
-            <span class="keyword">College</span>.<br /><br />I love Hip-Hop
-            Music and E-Sports. I'm an amateur
+            while study CS abroad at my
+            <span class="DCollege"
+              ><span class="keyword">D</span>ream
+              <span class="keyword">College</span></span
+            >.<br /><br />I love Hip-Hop Music and E-Sports. I'm an amateur
             <span class="keyword">League Of Legends</span> player, but I believe
             one day I will be the <em>Worlds Champion</em>. Also, I'm a big
             Marvel fan, especially, <em>Spidey</em>.
@@ -55,7 +57,11 @@
         </div>
         <div class="col-lg-7">
           <transition name="fade-quote" mode="out-in">
-            <div class="quote-container" v-if="quoteNumber != null">
+            <div
+              class="quote-container"
+              v-if="quoteNumber != null"
+              @click="resetAndChangeQuote()"
+            >
               <div class="quote-img">
                 <img :src="quotes[quoteNumber]['quote-img']" />
               </div>
@@ -155,29 +161,51 @@ export default {
           "quote-cite": "- Ekko, The Boy Who Shattered Time",
         },
         {
-          "quote-img": "https://i.ibb.co/gMjdjh9/thor.jpg",
+          "quote-img": "https://i.ibb.co/tqcdpKj/thor.jpg",
           quote:
             '"I choose to run towards my problems, and not away from them. Because that\'s what heroes do."',
           "quote-cite": "- Thor Odinson, God of Thunder",
         },
         {
-          "quote-img": "https://i.ibb.co/hZw746b/thanos.jpg",
+          "quote-img": "https://i.ibb.co/Bqw8P9j/thanos.jpg",
           quote: '"The hardest choices require the strongest wills."',
           "quote-cite": "- Thanos, The Mad Titan",
         },
         {
-          "quote-img": "https://i.ibb.co/sPLzn3B/ironman.jpg",
+          "quote-img": "https://i.ibb.co/QkxfX4m/ironman.jpg",
           quote:
             '"Heroes are made by the paths they choose, not the powers they are graced with."',
           "quote-cite": "- Tony Stark, Iron Man",
         },
         {
-          "quote-img": "https://i.ibb.co/nf0qFss/spiderman.jpg",
+          "quote-img": "https://i.ibb.co/KDwDLJd/spiderman.jpg",
           quote: '"With great power comes great responsibility."',
           "quote-cite": "- Uncle Ben, Spiderman's Uncle",
         },
       ],
     };
+  },
+  methods: {
+    resetAndChangeQuote() {
+      this.changeQuoteMethod();
+      clearInterval(this.changeQuote);
+      this.changeQuote = setInterval(() => {
+        this.changeQuoteMethod();
+      }, 10000);
+    },
+    changeQuoteMethod() {
+      this.shownQuotes.push(this.quoteNumber);
+      this.lastone = this.quoteNumber;
+      this.quoteNumber = null;
+      setTimeout(() => {
+        if (this.shownQuotes.length == this.quotes.length) {
+          this.shownQuotes = [this.lastone];
+        }
+        do {
+          this.quoteNumber = Math.floor(Math.random() * this.quotes.length);
+        } while (this.shownQuotes.includes(this.quoteNumber));
+      }, 400);
+    },
   },
   mounted() {
     // this.quoteNumber = Math.floor(Math.random() * this.quotes.length);
@@ -226,6 +254,29 @@ export default {
     .keyword {
       font-weight: 900;
       font-style: italic;
+    }
+    .DCollege {
+      position: relative;
+      &:hover {
+        text-decoration: line-through;
+      }
+      &:hover::after {
+        content: "Davidson College";
+        height: fit-content;
+        width: fit-content;
+        min-width: 100%;
+        white-space: pre;
+        // background-color: red;
+        position: absolute;
+        bottom: -110%;
+        left: 0;
+        padding-top: 2px;
+        text-align: center;
+        color: rgb(214, 214, 214);
+        font-weight: 900;
+        font-size: 0.85em;
+        font-style: italic;
+      }
     }
     & ~ .spider-web {
       position: absolute;
@@ -290,6 +341,42 @@ export default {
     font-family: "Bree Serif", serif;
     letter-spacing: 0.75px;
     font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .left-side {
+    margin-top: 0.7rem;
+    .spider-web {
+      bottom: -15% !important;
+      left: -12.5% !important;
+    }
+  }
+  .quote-container {
+    z-index: 1;
+    margin-top: 0;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    .quote-img {
+      padding: 0;
+      &::after {
+        display: none;
+      }
+    }
+    .quote {
+      // bottom: -10px;
+      position: relative;
+      padding-top: 2rem;
+      width: 90%;
+    }
+    .quote-cite {
+      bottom: -40px;
+      // position: relative;
+    }
   }
 }
 
