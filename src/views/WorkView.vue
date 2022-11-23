@@ -93,8 +93,8 @@
           v-motion-slide-visible-once-right
           v-motion-slide-right
         >
-          <div class="col-lg-4 col-sm-6" @click="showProjectViewer('Revilky')">
-            <div class="card color">
+          <div class="col-lg-4 col-sm-6">
+            <div class="card color" @click="showProjectViewer('Revilky')">
               <img src="../assets/revilky_logo.png" class="card-img-top" />
               <div class="card-body">
                 <h5 class="card-title">Revilky</h5>
@@ -105,8 +105,8 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-sm-6" @click="showProjectViewer('Kilecy')">
-            <div class="card color">
+          <div class="col-lg-4 col-sm-6">
+            <div class="card color" @click="showProjectViewer('Kilecy')">
               <img src="../assets/kilecy_logo.png" class="card-img-top" />
               <div class="card-body">
                 <h5 class="card-title">Kilecy</h5>
@@ -117,11 +117,11 @@
               </div>
             </div>
           </div>
-          <div
-            class="col-lg-4 col-sm-6"
-            @click="showProjectViewer('WebDevHandouts')"
-          >
-            <div class="card color">
+          <div class="col-lg-4 col-sm-6">
+            <div
+              class="card color"
+              @click="showProjectViewer('WebDevHandouts')"
+            >
               <img src="../assets/webdev_logo.png" class="card-img-top" />
               <div class="card-body">
                 <h5 class="card-title">WEB Dev Handouts</h5>
@@ -132,11 +132,8 @@
               </div>
             </div>
           </div>
-          <div
-            class="col-lg-4 col-sm-6"
-            @click="showProjectViewer('GreenHesive')"
-          >
-            <div class="card color">
+          <div class="col-lg-4 col-sm-6">
+            <div class="card color" @click="showProjectViewer('GreenHesive')">
               <img src="../assets/greenhesive_logo.png" class="card-img-top" />
               <div class="card-body">
                 <h5 class="card-title">Green-Hesive</h5>
