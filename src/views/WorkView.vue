@@ -889,11 +889,15 @@
                       </p>
                     </div>
                     <p class="fst-italic px-5 text-center">
-                      "Maadi STEM Model United Nations is a way for young
-                      students to enter the MUN platform where students play the
-                      role of delegates from different countries and attempt to
-                      solve real world issues with the policies and perspectives
-                      of their assigned country."
+                      "Welcome to The Maths Kingdom"<br />"To be better in the
+                      shortest period of time, our team tries to stick to our
+                      main principles, including providing the best materials,
+                      trainings, and contests."<br />"Fine-made handouts with
+                      high-level practice problems and problem-solving
+                      techniques."<br />"Our trainers do love their fields and
+                      adore helping their trainees improve and practice."<br />"Competitive
+                      Contests that utterly guide the contestant to develop
+                      their speed and accuracy."
                     </p>
                     <p class="text-center">
                       <a
@@ -950,10 +954,10 @@
                       </li>
                       <li>
                         <a
-                          href="https://animejs.com/"
+                          href="https://github.com/florian/cookie.js"
                           target="_blank"
                           class="color"
-                          >anime.js</a
+                          >cookie.js</a
                         >
                       </li>
                     </ol>
@@ -1340,7 +1344,7 @@
                     </p>
                     <p class="text-center">
                       <a
-                        href="https://mohanad-elagan.github.io/Kilecy/"
+                        href="https://mikhaelmounay.github.io/Kilecy"
                         target="_blank"
                         class="color"
                         >Visit Website
@@ -1355,7 +1359,7 @@
                       ></a>
                       &nbsp;&nbsp;&nbsp;
                       <a
-                        href="https://github.com/Mohanad-Elagan/Kilecy"
+                        href="https://github.com/MikhaelMounay/Kilecy"
                         target="_blank"
                         class="color"
                         >GitHub Repository

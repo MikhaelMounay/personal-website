@@ -6,8 +6,8 @@
         <div class="col-lg-5 left-side">
           <p class="about-text">
             I'm a senior Egyptian
-            <span class="keyword">STEMer</span> (highschooler at STEM High
-            School for Boys - 6th of October). I have a serious passion for
+            <span class="keyword">STEMer</span> (High School student at STEM
+            High School for Boys - 6th of October). I have a serious passion for
             <span class="keyword">computer science</span>. I found it in the age
             of 13, and I will follow it till I RIP. So far, I've been working on
             my own to grow this passion, and I'm willing continue this work

@@ -17,13 +17,13 @@
             <!-- <router-link to="/contact" class="btn color"
               >Contact me</router-link
             > -->
-            <p class="life-quote" v-motion-pop :delay="3000">
+            <p class="life-quote" v-motion-pop :delay="2500">
               Our life has no script. There is always be a choice.
             </p>
             <p
               class="try-dbl"
               v-motion-pop
-              :delay="4500"
+              :delay="3500"
               @dblclick="dblclicked = true"
             >
               Try a Double <span v-if="!$isMobile()">Click</span
@@ -100,7 +100,7 @@ export default {
     });
   },
   created() {
-    setTimeout(this.typeText, this.newTextDelay + 200);
+    setTimeout(this.typeText, this.newTextDelay + 100);
   },
 };
 </script>
