@@ -27,7 +27,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/). -->
 
 ## Used Techs / Services
 (besides basic HTML/CSS/JS)
- - [![Vue JS 3](https://img.shields.io/badge/-Vue.js-4FC08D?logo=Vue.js&logoColor=white&style=flat)](https://vuejs.org/) & [![Vue CLI 5](https://img.shields.io/badge/-Vue CLI-4FC08D?logo=Vue.js&logoColor=white&style=flat)](https://cli.vuejs.org/)
+ - [![Vue JS 3](https://img.shields.io/badge/-Vue.js%205-4FC08D?logo=Vue.js&logoColor=white&style=flat)](https://vuejs.org/) & [![Vue CLI 5](https://img.shields.io/badge/-Vue%20CLI%205-4FC08D?logo=Vue.js&logoColor=white&style=flat)](https://cli.vuejs.org/)
  - [![Sass](https://img.shields.io/badge/-Sass-CC6699?logo=Sass&logoColor=white&style=flat)](https://sass-lang.com/)
  - [![Bootstrap 5](https://img.shields.io/badge/-Bootstrap-7952B3?logo=Bootstrap&logoColor=white&style=flat)](https://getbootstrap.com/)
  - [![ImgBB](https://img.shields.io/badge/-ImgBB-1C9AD6?&logoColor=white&style=flat)](https://imgbb.com/)
