@@ -17,13 +17,13 @@
             <!-- <router-link to="/contact" class="btn color"
               >Contact me</router-link
             > -->
-            <p class="life-quote" v-motion-pop :delay="2500">
-              Our life has no script. There is always be a choice.
+            <p class="life-quote" v-motion-pop :delay="1500">
+              Our life has no script. There will always be a choice.
             </p>
             <p
               class="try-dbl"
               v-motion-pop
-              :delay="3500"
+              :delay="2500"
               @dblclick="dblclicked = true"
             >
               Try a Double <span v-if="!$isMobile()">Click</span
@@ -54,9 +54,9 @@ export default {
       typeValue: "",
       typeStatus: false,
       typeArray: ["WEB DEVELOPER", "STEMer", "ESPORTS LOVER"],
-      typingSpeed: 150,
+      typingSpeed: 100,
       erasingSpeed: 100,
-      newTextDelay: 2000,
+      newTextDelay: 1000,
       typeArrayIndex: 0,
       charIndex: 0,
       dblclicked: false,

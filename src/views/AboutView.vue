@@ -8,17 +8,17 @@
             I'm a senior Egyptian
             <span class="keyword">STEMer</span> (High School student at STEM
             High School for Boys - 6th of October). I have a serious passion for
-            <span class="keyword">computer science</span>. I found it in the age
+            <span class="keyword">computer science</span>. I found it at the age
             of 13, and I will follow it till I RIP. So far, I've been working on
-            my own to grow this passion, and I'm willing continue this work
-            while study CS abroad at my
+            my own to grow this passion, and I'm willing to continue this work
+            while studying CS abroad at my
             <span class="DCollege"
               ><span class="keyword">D</span>ream
               <span class="keyword">College</span></span
-            >.<br /><br />I love Hip-Hop Music and E-Sports. I'm an amateur
-            <span class="keyword">League Of Legends</span> player, but I believe
-            one day I will be the <em>Worlds Champion</em>. Also, I'm a big
-            Marvel fan, especially, <em>Spidey</em>.
+            >.<br /><br />I love Hip-Hop Music as well as E-Sports. I'm an
+            amateur <span class="keyword">League Of Legends</span> player, but I
+            believe one day I will be the <em>Worlds Champion</em>. Also, I'm a
+            big Marvel fan, especially <em>Spidey</em>.
           </p>
           <svg
             class="spider-web"
