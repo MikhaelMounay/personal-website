@@ -12,13 +12,13 @@
             of 13, and I will follow it till I RIP. So far, I've been working on
             my own to grow this passion, and I'm willing to continue this work
             while studying CS abroad at my
-            <span class="DCollege"
-              ><span class="keyword">D</span>ream
-              <span class="keyword">College</span></span
-            >.<br /><br />I love Hip-Hop Music as well as E-Sports. I'm an
-            amateur <span class="keyword">League Of Legends</span> player, but I
-            believe one day I will be the <em>Worlds Champion</em>. Also, I'm a
-            big Marvel fan, especially <em>Spidey</em>.
+            <!-- <span class="DCollege"> -->
+            dream college.
+            <!-- </span> -->
+            <br /><br />I love Hip-Hop Music as well as E-Sports. I'm an amateur
+            <span class="keyword">League Of Legends</span> player, but I believe
+            one day I will be the <em>Worlds Champion</em>. Also, I'm a big
+            Marvel fan, especially <em>Spidey</em>.
           </p>
           <svg
             class="spider-web"

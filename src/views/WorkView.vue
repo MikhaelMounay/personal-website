@@ -152,11 +152,9 @@
                   "Never Count On Beginnings, The Game Hasn't Started Yet!"
                 </h5>
                 <p class="card-text">
-                  @
-                  <span class="DCollege"
-                    ><span class="fw-bold">D</span>ream
-                    <span class="fw-bold">College</span></span
-                  >
+                  <!-- <span class="DCollege"> -->
+                  @My Dream College
+                  <!-- </span> -->
                   <span class="time text-muted">Very Near Future</span>
                 </p>
               </div>
