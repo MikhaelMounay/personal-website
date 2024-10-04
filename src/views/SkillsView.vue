@@ -1,449 +1,546 @@
 <template>
-  <section>
-    <div class="container">
-      <h1 class="display-3 section-title color">Skills & Experience</h1>
-      <div class="row mt-5 ms-2">
-        <div class="col-lg-8">
-          <p>
-            Since I have started my journey as a 13-year-old boy, I have learnt
-            various technologies in WEB and software development.
-          </p>
-          <p>
-            So far, I can build successful responsive websites that are fast,
-            easy to use and maintain. My main area of expertise is front-end
-            development, HTML, CSS, JS, building web apps, animations, and
-            coding interactive layouts. That doesn't mean that I have no
-            experience in multiple other fields :).
-          </p>
-          <!-- <p>
+    <section>
+        <div class="container">
+            <h1 class="display-3 section-title color">Skills & Experience</h1>
+            <div class="row mt-5 ms-2">
+                <div class="col-lg-8">
+                    <p>
+                        Since I have started my journey as a 13-year-old boy, I have learnt various technologies in WEB and
+                        software development.
+                    </p>
+                    <p>
+                        So far, I can build successful responsive websites that are fast, easy to use and maintain. My main
+                        area of expertise is front-end development, HTML, CSS, JS, building web apps, animations, and coding
+                        interactive layouts. That doesn't mean that I have no experience in multiple other fields :).
+                    </p>
+                    <!-- <p>
             Think we can work together ? Don't hesistate to
             <router-link to="/contact">contact me</router-link>.
           </p> -->
-        </div>
-      </div>
-      <div class="timeline color mt-5">
-        <div class="year" data-year="2017" v-motion-slide-right>
-          <div class="row g-4">
-            <div class="col-lg-4">
-              <div class="card w-100">
-                <div class="card-img-top">
-                  <div class="icon-container">
-                    <svg
-                      class="color"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 640 512"
-                    >
-                      <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                      <path
-                        d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"
-                      />
-                    </svg>
-                  </div>
                 </div>
-                <div class="card-body">
-                  <h4 class="card-title">HTML & CSS</h4>
-                  <p class="card-text">
-                    The basics I have been learning since day one in my journey.
-                    I have used them a lot of times in various project types for
-                    almost
-                    <strong
-                      ><em>{{ current_year - 2017 }} years</em></strong
-                    >.
-                  </p>
-                </div>
-              </div>
             </div>
-            <div class="col-lg-4">
-              <div class="card">
-                <div class="card-img-top">
-                  <div class="icon-container">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 448 512"
-                      class="color"
-                    >
-                      <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                      <path
-                        d="M439.8 200.5c-7.7-30.9-22.3-54.2-53.4-54.2h-40.1v47.4c0 36.8-31.2 67.8-66.8 67.8H172.7c-29.2 0-53.4 25-53.4 54.3v101.8c0 29 25.2 46 53.4 54.3 33.8 9.9 66.3 11.7 106.8 0 26.9-7.8 53.4-23.5 53.4-54.3v-40.7H226.2v-13.6h160.2c31.1 0 42.6-21.7 53.4-54.2 11.2-33.5 10.7-65.7 0-108.6zM286.2 404c11.1 0 20.1 9.1 20.1 20.3 0 11.3-9 20.4-20.1 20.4-11 0-20.1-9.2-20.1-20.4.1-11.3 9.1-20.3 20.1-20.3zM167.8 248.1h106.8c29.7 0 53.4-24.5 53.4-54.3V91.9c0-29-24.4-50.7-53.4-55.6-35.8-5.9-74.7-5.6-106.8.1-45.2 8-53.4 24.7-53.4 55.6v40.7h106.9v13.6h-147c-31.1 0-58.3 18.7-66.8 54.2-9.8 40.7-10.2 66.1 0 108.6 7.6 31.6 25.7 54.2 56.8 54.2H101v-48.8c0-35.3 30.5-66.4 66.8-66.4zm-6.7-142.6c-11.1 0-20.1-9.1-20.1-20.3.1-11.3 9-20.4 20.1-20.4 11 0 20.1 9.2 20.1 20.4s-9 20.3-20.1 20.3z"
-                      />
-                    </svg>
-                  </div>
+            <div class="timeline color mt-5">
+                <div class="year" data-year="2017" v-motion-slide-right>
+                    <div class="row g-4">
+                        <div class="col-lg-4">
+                            <div class="card w-100">
+                                <div class="card-img-top">
+                                    <div class="icon-container">
+                                        <svg class="color" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+                                            <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                                            <path
+                                                d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"
+                                            />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">HTML & CSS</h4>
+                                    <p class="card-text">
+                                        The basics I have been learning since day one in my journey. I have used them a lot
+                                        of times in various project types.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <div class="card-img-top">
+                                    <div class="icon-container">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="color">
+                                            <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                                            <path
+                                                d="M439.8 200.5c-7.7-30.9-22.3-54.2-53.4-54.2h-40.1v47.4c0 36.8-31.2 67.8-66.8 67.8H172.7c-29.2 0-53.4 25-53.4 54.3v101.8c0 29 25.2 46 53.4 54.3 33.8 9.9 66.3 11.7 106.8 0 26.9-7.8 53.4-23.5 53.4-54.3v-40.7H226.2v-13.6h160.2c31.1 0 42.6-21.7 53.4-54.2 11.2-33.5 10.7-65.7 0-108.6zM286.2 404c11.1 0 20.1 9.1 20.1 20.3 0 11.3-9 20.4-20.1 20.4-11 0-20.1-9.2-20.1-20.4.1-11.3 9.1-20.3 20.1-20.3zM167.8 248.1h106.8c29.7 0 53.4-24.5 53.4-54.3V91.9c0-29-24.4-50.7-53.4-55.6-35.8-5.9-74.7-5.6-106.8.1-45.2 8-53.4 24.7-53.4 55.6v40.7h106.9v13.6h-147c-31.1 0-58.3 18.7-66.8 54.2-9.8 40.7-10.2 66.1 0 108.6 7.6 31.6 25.7 54.2 56.8 54.2H101v-48.8c0-35.3 30.5-66.4 66.8-66.4zm-6.7-142.6c-11.1 0-20.1-9.1-20.1-20.3.1-11.3 9-20.4 20.1-20.4 11 0 20.1 9.2 20.1 20.4s-9 20.3-20.1 20.3z"
+                                            />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Python</h4>
+                                    <p class="card-text">
+                                        It's been my ultimate assistant in many projects helping with various automating,
+                                        webscraping, and data analysis tasks.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="card-body">
-                  <h4 class="card-title">Python</h4>
-                  <p class="card-text">
-                    Used Python in almost every project I have made, dealing
-                    with various packages for automating, webscraping, and data
-                    analysis purposes. It's been my ultimate assistant in many
-                    projects.
-                  </p>
+                <div class="year" data-year="2018" v-motion-slide-visible-once-right v-motion-slide-right>
+                    <div class="row g-4">
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <div class="card-img-top">
+                                    <div class="icon-container">
+                                        <svg class="color" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                            <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                                            <path
+                                                d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zM243.8 381.4c0 43.6-25.6 63.5-62.9 63.5-33.7 0-53.2-17.4-63.2-38.5l34.3-20.7c6.6 11.7 12.6 21.6 27.1 21.6 13.8 0 22.6-5.4 22.6-26.5V237.7h42.1v143.7zm99.6 63.5c-39.1 0-64.4-18.6-76.7-43l34.3-19.8c9 14.7 20.8 25.6 41.5 25.6 17.4 0 28.6-8.7 28.6-20.8 0-14.4-11.4-19.5-30.7-28l-10.5-4.5c-30.4-12.9-50.5-29.2-50.5-63.5 0-31.6 24.1-55.6 61.6-55.6 26.8 0 46 9.3 59.8 33.7L368 290c-7.2-12.9-15-18-27.1-18-12.3 0-20.1 7.8-20.1 18 0 12.6 7.8 17.7 25.9 25.6l10.5 4.5c35.8 15.3 55.9 31 55.9 66.2 0 37.8-29.8 58.6-69.7 58.6z"
+                                            />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">JavaScript</h4>
+                                    <p class="card-text">
+                                        Throughout my journey, I have used javascript along with some of its numerous
+                                        libraries such as jQuery, skrollr, anime.js, and many more. Of course,
+                                        <strong>Node.js & Bootstrap</strong> are my close friends.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <div class="card-img-top">
+                                    <div class="icon-container">
+                                        <svg class="color" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                            <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                                            <path
+                                                d="M420.55,301.93a24,24,0,1,1,24-24,24,24,0,0,1-24,24m-265.1,0a24,24,0,1,1,24-24,24,24,0,0,1-24,24m273.7-144.48,47.94-83a10,10,0,1,0-17.27-10h0l-48.54,84.07a301.25,301.25,0,0,0-246.56,0L116.18,64.45a10,10,0,1,0-17.27,10h0l47.94,83C64.53,202.22,8.24,285.55,0,384H576c-8.24-98.45-64.54-181.78-146.85-226.55"
+                                            />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Kotlin & Android Studio</h4>
+                                    <p class="card-text">
+                                        Learnt them as an introduction to mobile development world before switching to
+                                        Flutter. I have used this combination in various small personal projects.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          class="year"
-          data-year="2018"
-          v-motion-slide-visible-once-right
-          v-motion-slide-right
-        >
-          <div class="row g-4">
-            <div class="col-lg-4">
-              <div class="card">
-                <div class="card-img-top">
-                  <div class="icon-container">
-                    <svg
-                      class="color"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 448 512"
-                    >
-                      <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                      <path
-                        d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zM243.8 381.4c0 43.6-25.6 63.5-62.9 63.5-33.7 0-53.2-17.4-63.2-38.5l34.3-20.7c6.6 11.7 12.6 21.6 27.1 21.6 13.8 0 22.6-5.4 22.6-26.5V237.7h42.1v143.7zm99.6 63.5c-39.1 0-64.4-18.6-76.7-43l34.3-19.8c9 14.7 20.8 25.6 41.5 25.6 17.4 0 28.6-8.7 28.6-20.8 0-14.4-11.4-19.5-30.7-28l-10.5-4.5c-30.4-12.9-50.5-29.2-50.5-63.5 0-31.6 24.1-55.6 61.6-55.6 26.8 0 46 9.3 59.8 33.7L368 290c-7.2-12.9-15-18-27.1-18-12.3 0-20.1 7.8-20.1 18 0 12.6 7.8 17.7 25.9 25.6l10.5 4.5c35.8 15.3 55.9 31 55.9 66.2 0 37.8-29.8 58.6-69.7 58.6z"
-                      />
-                    </svg>
-                  </div>
+                <div class="year" data-year="2019" v-motion-slide-visible-once-right>
+                    <div class="row g-4">
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <div class="card-img-top">
+                                    <div class="icon-container">
+                                        <svg class="color" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+                                            <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                                            <path
+                                                d="M320 104.5c171.4 0 303.2 72.2 303.2 151.5S491.3 407.5 320 407.5c-171.4 0-303.2-72.2-303.2-151.5S148.7 104.5 320 104.5m0-16.8C143.3 87.7 0 163 0 256s143.3 168.3 320 168.3S640 349 640 256 496.7 87.7 320 87.7zM218.2 242.5c-7.9 40.5-35.8 36.3-70.1 36.3l13.7-70.6c38 0 63.8-4.1 56.4 34.3zM97.4 350.3h36.7l8.7-44.8c41.1 0 66.6 3 90.2-19.1 26.1-24 32.9-66.7 14.3-88.1-9.7-11.2-25.3-16.7-46.5-16.7h-70.7L97.4 350.3zm185.7-213.6h36.5l-8.7 44.8c31.5 0 60.7-2.3 74.8 10.7 14.8 13.6 7.7 31-8.3 113.1h-37c15.4-79.4 18.3-86 12.7-92-5.4-5.8-17.7-4.6-47.4-4.6l-18.8 96.6h-36.5l32.7-168.6zM505 242.5c-8 41.1-36.7 36.3-70.1 36.3l13.7-70.6c38.2 0 63.8-4.1 56.4 34.3zM384.2 350.3H421l8.7-44.8c43.2 0 67.1 2.5 90.2-19.1 26.1-24 32.9-66.7 14.3-88.1-9.7-11.2-25.3-16.7-46.5-16.7H417l-32.8 168.7z"
+                                            />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">PHP & SQL</h4>
+                                    <p class="card-text">
+                                        Learnt them at school and used them in a couple of small high school projects and
+                                        applications.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="card-body">
-                  <h4 class="card-title">JS + Libraries & Toolkits</h4>
-                  <p class="card-text">
-                    Throughout my journey, I have used javascript along with
-                    some of its numerous libraries such as jQuery, skrollr,
-                    anime.js, and many more. Of course,
-                    <strong>Node JS & Bootstrap</strong> are my close friends.
-                  </p>
+                <div class="year" data-year="2020" v-motion-slide-visible-once-right>
+                    <div class="row g-4">
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <div class="card-img-top">
+                                    <div class="icon-container">
+                                        <svg
+                                            class="color"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            version="1.1"
+                                            viewBox="0 0 166 202"
+                                        >
+                                            <defs>
+                                                <linearGradient id="triangleGradient">
+                                                    <stop offset="20%" stop-color="#000000" stop-opacity=".55" />
+                                                    <stop offset="85%" stop-color="#616161" stop-opacity=".01" />
+                                                </linearGradient>
+                                                <linearGradient id="rectangleGradient" x1="0%" x2="0%" y1="0%" y2="100%">
+                                                    <stop offset="20%" stop-color="#000000" stop-opacity=".15" />
+                                                    <stop offset="85%" stop-color="#616161" stop-opacity=".01" />
+                                                </linearGradient>
+                                            </defs>
+                                            <path
+                                                class="color"
+                                                fill="#dc143c"
+                                                fill-opacity=".8"
+                                                d="M37.7 128.9 9.8 101 100.4 10.4 156.2 10.4"
+                                            />
+                                            <path
+                                                class="color"
+                                                fill="#dc143c"
+                                                fill-opacity=".8"
+                                                d="M156.2 94 100.4 94 79.5 114.9 107.4 142.8"
+                                            />
+                                            <path
+                                                class="color"
+                                                fill="#dc143c"
+                                                d="M79.5 170.7 100.4 191.6 156.2 191.6 156.2 191.6 107.4 142.8"
+                                            />
+                                            <g transform="matrix(0.7071, -0.7071, 0.7071, 0.7071, -77.667, 98.057)">
+                                                <rect
+                                                    class="color"
+                                                    width="39.4"
+                                                    height="39.4"
+                                                    x="59.8"
+                                                    y="123.1"
+                                                    fill="#dc143c"
+                                                />
+                                                <rect
+                                                    width="39.4"
+                                                    height="5.5"
+                                                    x="59.8"
+                                                    y="162.5"
+                                                    fill="url(#rectangleGradient)"
+                                                />
+                                            </g>
+                                            <path d="M79.5 170.7 120.9 156.4 107.4 142.8" fill="url(#triangleGradient)" />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Dart & Flutter</h4>
+                                    <p class="card-text">
+                                        Got introduced to this combination during
+                                        <strong>IEEE HSB TEXOS 2.0 Workshop (2020-2021)</strong>. Used it in multiple small
+                                        to medium projects including high school capstone projects.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-            </div>
-            <div class="col-lg-4">
-              <div class="card">
-                <div class="card-img-top">
-                  <div class="icon-container">
-                    <svg
-                      class="color"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 576 512"
-                    >
-                      <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                      <path
-                        d="M420.55,301.93a24,24,0,1,1,24-24,24,24,0,0,1-24,24m-265.1,0a24,24,0,1,1,24-24,24,24,0,0,1-24,24m273.7-144.48,47.94-83a10,10,0,1,0-17.27-10h0l-48.54,84.07a301.25,301.25,0,0,0-246.56,0L116.18,64.45a10,10,0,1,0-17.27,10h0l47.94,83C64.53,202.22,8.24,285.55,0,384H576c-8.24-98.45-64.54-181.78-146.85-226.55"
-                      />
-                    </svg>
-                  </div>
-                </div>
-                <div class="card-body">
-                  <h4 class="card-title">Kotlin & Android Studio</h4>
-                  <p class="card-text">
-                    I've learnt them as an introduction to mobile development
-                    world before switching to Flutter. I have used this
-                    combination in various small personal projects.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="year" data-year="2019" v-motion-slide-visible-once-right>
-          <div class="row g-4">
-            <div class="col-lg-4">
-              <div class="card">
-                <div class="card-img-top">
-                  <div class="icon-container">
-                    <svg
-                      class="color"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 640 512"
-                    >
-                      <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                      <path
-                        d="M320 104.5c171.4 0 303.2 72.2 303.2 151.5S491.3 407.5 320 407.5c-171.4 0-303.2-72.2-303.2-151.5S148.7 104.5 320 104.5m0-16.8C143.3 87.7 0 163 0 256s143.3 168.3 320 168.3S640 349 640 256 496.7 87.7 320 87.7zM218.2 242.5c-7.9 40.5-35.8 36.3-70.1 36.3l13.7-70.6c38 0 63.8-4.1 56.4 34.3zM97.4 350.3h36.7l8.7-44.8c41.1 0 66.6 3 90.2-19.1 26.1-24 32.9-66.7 14.3-88.1-9.7-11.2-25.3-16.7-46.5-16.7h-70.7L97.4 350.3zm185.7-213.6h36.5l-8.7 44.8c31.5 0 60.7-2.3 74.8 10.7 14.8 13.6 7.7 31-8.3 113.1h-37c15.4-79.4 18.3-86 12.7-92-5.4-5.8-17.7-4.6-47.4-4.6l-18.8 96.6h-36.5l32.7-168.6zM505 242.5c-8 41.1-36.7 36.3-70.1 36.3l13.7-70.6c38.2 0 63.8-4.1 56.4 34.3zM384.2 350.3H421l8.7-44.8c43.2 0 67.1 2.5 90.2-19.1 26.1-24 32.9-66.7 14.3-88.1-9.7-11.2-25.3-16.7-46.5-16.7H417l-32.8 168.7z"
-                      />
-                    </svg>
-                  </div>
-                </div>
-                <div class="card-body">
-                  <h4 class="card-title">PHP & SQL</h4>
-                  <p class="card-text">
-                    Have learnt them about
-                    <strong
-                      ><em>{{ current_year - 2019 }} years</em></strong
-                    >
-                    ago and used them in multiple school projects and
-                    applications.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="year" data-year="2020" v-motion-slide-visible-once-right>
-          <div class="row g-4">
-            <div class="col-lg-4">
-              <div class="card">
-                <div class="card-img-top">
-                  <div class="icon-container">
-                    <svg
-                      class="color"
-                      xmlns="http://www.w3.org/2000/svg"
-                      version="1.1"
-                      viewBox="0 0 166 202"
-                    >
-                      <defs>
-                        <linearGradient id="triangleGradient">
-                          <stop
-                            offset="20%"
-                            stop-color="#000000"
-                            stop-opacity=".55"
-                          />
-                          <stop
-                            offset="85%"
-                            stop-color="#616161"
-                            stop-opacity=".01"
-                          />
-                        </linearGradient>
-                        <linearGradient
-                          id="rectangleGradient"
-                          x1="0%"
-                          x2="0%"
-                          y1="0%"
-                          y2="100%"
-                        >
-                          <stop
-                            offset="20%"
-                            stop-color="#000000"
-                            stop-opacity=".15"
-                          />
-                          <stop
-                            offset="85%"
-                            stop-color="#616161"
-                            stop-opacity=".01"
-                          />
-                        </linearGradient>
-                      </defs>
-                      <path
-                        class="color"
-                        fill="#dc143c"
-                        fill-opacity=".8"
-                        d="M37.7 128.9 9.8 101 100.4 10.4 156.2 10.4"
-                      />
-                      <path
-                        class="color"
-                        fill="#dc143c"
-                        fill-opacity=".8"
-                        d="M156.2 94 100.4 94 79.5 114.9 107.4 142.8"
-                      />
-                      <path
-                        class="color"
-                        fill="#dc143c"
-                        d="M79.5 170.7 100.4 191.6 156.2 191.6 156.2 191.6 107.4 142.8"
-                      />
-                      <g
-                        transform="matrix(0.7071, -0.7071, 0.7071, 0.7071, -77.667, 98.057)"
-                      >
-                        <rect
-                          class="color"
-                          width="39.4"
-                          height="39.4"
-                          x="59.8"
-                          y="123.1"
-                          fill="#dc143c"
-                        />
-                        <rect
-                          width="39.4"
-                          height="5.5"
-                          x="59.8"
-                          y="162.5"
-                          fill="url(#rectangleGradient)"
-                        />
-                      </g>
-                      <path
-                        d="M79.5 170.7 120.9 156.4 107.4 142.8"
-                        fill="url(#triangleGradient)"
-                      />
-                    </svg>
-                  </div>
-                </div>
-                <div class="card-body">
-                  <h4 class="card-title">Dart & Flutter</h4>
-                  <p class="card-text">
-                    Since I've got hold on this combination in
-                    <strong>IEEE HSB TEXOS 2.0 Workshop</strong>, I've used it
-                    in multiple small to medium projects including school
-                    capstone projects.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="year" data-year="2021" v-motion-slide-visible-once-right>
-          <div class="row g-4">
-            <div class="col-lg-4">
-              <div class="card">
-                <div class="card-img-top">
-                  <div class="icon-container">
-                    <svg
-                      class="cpp-logo color"
-                      version="1.1"
-                      id="Layer_1"
-                      xmlns="http://www.w3.org/2000/svg"
-                      xmlns:xlink="http://www.w3.org/1999/xlink"
-                      x="0px"
-                      y="0px"
-                      width="306px"
-                      height="344.35px"
-                      viewBox="0 0 306 344.35"
-                      enable-background="new 0 0 306 344.35"
-                      xml:space="preserve"
-                    >
-                      <path
-                        class="color"
-                        fill="#00599C"
-                        d="M302.107,258.262c2.401-4.159,3.893-8.845,3.893-13.053V99.14c0-4.208-1.49-8.893-3.892-13.052L153,172.175
+                <div class="year" data-year="2021" v-motion-slide-visible-once-right>
+                    <div class="row g-4">
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <div class="card-img-top">
+                                    <div class="icon-container">
+                                        <svg
+                                            class="cpp-logo color"
+                                            version="1.1"
+                                            id="Layer_1"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                                            x="0px"
+                                            y="0px"
+                                            width="306px"
+                                            height="344.35px"
+                                            viewBox="0 0 306 344.35"
+                                            enable-background="new 0 0 306 344.35"
+                                            xml:space="preserve"
+                                        >
+                                            <path
+                                                class="color"
+                                                fill="#00599C"
+                                                d="M302.107,258.262c2.401-4.159,3.893-8.845,3.893-13.053V99.14c0-4.208-1.49-8.893-3.892-13.052L153,172.175
 	L302.107,258.262z"
-                      />
-                      <path
-                        class="color"
-                        fill="#004482"
-                        d="M166.25,341.193l126.5-73.034c3.644-2.104,6.956-5.737,9.357-9.897L153,172.175L3.893,258.263
+                                            />
+                                            <path
+                                                class="color"
+                                                fill="#004482"
+                                                d="M166.25,341.193l126.5-73.034c3.644-2.104,6.956-5.737,9.357-9.897L153,172.175L3.893,258.263
 	c2.401,4.159,5.714,7.793,9.357,9.896l126.5,73.034C147.037,345.401,158.963,345.401,166.25,341.193z"
-                      />
-                      <path
-                        class="color"
-                        fill="#659AD2"
-                        d="M302.108,86.087c-2.402-4.16-5.715-7.793-9.358-9.897L166.25,3.156c-7.287-4.208-19.213-4.208-26.5,0
+                                            />
+                                            <path
+                                                class="color"
+                                                fill="#659AD2"
+                                                d="M302.108,86.087c-2.402-4.16-5.715-7.793-9.358-9.897L166.25,3.156c-7.287-4.208-19.213-4.208-26.5,0
 	L13.25,76.19C5.962,80.397,0,90.725,0,99.14v146.069c0,4.208,1.491,8.894,3.893,13.053L153,172.175L302.108,86.087z"
-                      />
-                      <g>
-                        <path
-                          fill="#FFFFFF"
-                          d="M153,274.175c-56.243,0-102-45.757-102-102s45.757-102,102-102c36.292,0,70.139,19.53,88.331,50.968
+                                            />
+                                            <g>
+                                                <path
+                                                    fill="#FFFFFF"
+                                                    d="M153,274.175c-56.243,0-102-45.757-102-102s45.757-102,102-102c36.292,0,70.139,19.53,88.331,50.968
 		l-44.143,25.544c-9.105-15.736-26.038-25.512-44.188-25.512c-28.122,0-51,22.878-51,51c0,28.121,22.878,51,51,51
 		c18.152,0,35.085-9.776,44.191-25.515l44.143,25.543C223.142,254.644,189.294,274.175,153,274.175z"
-                        />
-                      </g>
-                      <g>
-                        <polygon
-                          fill="#FFFFFF"
-                          points="255,166.508 243.666,166.508 243.666,155.175 232.334,155.175 232.334,166.508 221,166.508 
+                                                />
+                                            </g>
+                                            <g>
+                                                <polygon
+                                                    fill="#FFFFFF"
+                                                    points="255,166.508 243.666,166.508 243.666,155.175 232.334,155.175 232.334,166.508 221,166.508 
 		221,177.841 232.334,177.841 232.334,189.175 243.666,189.175 243.666,177.841 255,177.841 	"
-                        />
-                      </g>
-                      <g>
-                        <polygon
-                          fill="#FFFFFF"
-                          points="297.5,166.508 286.166,166.508 286.166,155.175 274.834,155.175 274.834,166.508 263.5,166.508 
+                                                />
+                                            </g>
+                                            <g>
+                                                <polygon
+                                                    fill="#FFFFFF"
+                                                    points="297.5,166.508 286.166,166.508 286.166,155.175 274.834,155.175 274.834,166.508 263.5,166.508 
 		263.5,177.841 274.834,177.841 274.834,189.175 286.166,189.175 286.166,177.841 297.5,177.841 	"
-                        />
-                      </g>
-                    </svg>
-                  </div>
+                                                />
+                                            </g>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">C++</h4>
+                                    <p class="card-text">
+                                        Learnt it to improve problem solving skills and practising on
+                                        <strong>CodeForces</strong>. Also, used it in some <strong>Arduino</strong> projects
+                                        during high school.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="card-body">
-                  <h4 class="card-title">C++</h4>
-                  <p class="card-text">
-                    Picked it up to improve problem-solving skills along with
-                    learning algorithms and data structures. Used it for a while
-                    practising on <strong>CodeForces</strong>. Also, used it in
-                    some projects along with <strong>Arduino</strong>.
-                  </p>
+                <div class="year" data-year="2022" v-motion-slide-visible-once-right>
+                    <div class="row g-4">
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <div class="card-img-top">
+                                    <div class="icon-container">
+                                        <svg
+                                            class="vue-logo color"
+                                            version="1.1"
+                                            viewBox="0 0 261.76 226.69"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <g transform="matrix(1.3333 0 0 -1.3333 -76.311 313.34)">
+                                                <g transform="translate(178.06 235.01)">
+                                                    <path
+                                                        d="m0 0-22.669-39.264-22.669 39.264h-75.491l98.16-170.02 98.16 170.02z"
+                                                        fill="#dc143c"
+                                                        class="color"
+                                                    />
+                                                </g>
+                                                <g transform="translate(178.06 235.01)">
+                                                    <path
+                                                        d="m0 0-22.669-39.264-22.669 39.264h-36.227l58.896-102.01 58.896 102.01z"
+                                                        fill="#ffffff85"
+                                                        class="color"
+                                                    />
+                                                </g>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Vue.js</h4>
+                                    <p class="card-text">
+                                        Started diving deeper into frontend. First used it in the
+                                        <strong>ACT Trainer (2022)</strong> project. Have been using for several projects
+                                        since then, and this portfolio is one of them :)
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <div class="card-img-top">
+                                    <div class="icon-container">
+                                        <svg class="color" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+                                            <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                                            <path
+                                                d="M301.84 378.92c-.3.6-.6 1.08 0 0zm249.13-87a131.16 131.16 0 0 0-58 13.5c-5.9-11.9-12-22.3-13-30.1-1.2-9.1-2.5-14.5-1.1-25.3s7.7-26.1 7.6-27.2-1.4-6.6-14.3-6.7-24 2.5-25.29 5.9a122.83 122.83 0 0 0-5.3 19.1c-2.3 11.7-25.79 53.5-39.09 75.3-4.4-8.5-8.1-16-8.9-22-1.2-9.1-2.5-14.5-1.1-25.3s7.7-26.1 7.6-27.2-1.4-6.6-14.29-6.7-24 2.5-25.3 5.9-2.7 11.4-5.3 19.1-33.89 77.3-42.08 95.4c-4.2 9.2-7.8 16.6-10.4 21.6-.4.8-.7 1.3-.9 1.7.3-.5.5-1 .5-.8-2.2 4.3-3.5 6.7-3.5 6.7v.1c-1.7 3.2-3.6 6.1-4.5 6.1-.6 0-1.9-8.4.3-19.9 4.7-24.2 15.8-61.8 15.7-63.1-.1-.7 2.1-7.2-7.3-10.7-9.1-3.3-12.4 2.2-13.2 2.2s-1.4 2-1.4 2 10.1-42.4-19.39-42.4c-18.4 0-44 20.2-56.58 38.5-7.9 4.3-25 13.6-43 23.5-6.9 3.8-14 7.7-20.7 11.4-.5-.5-.9-1-1.4-1.5-35.79-38.2-101.87-65.2-99.07-116.5 1-18.7 7.5-67.8 127.07-127.4 98-48.8 176.35-35.4 189.84-5.6 19.4 42.5-41.89 121.6-143.66 133-38.79 4.3-59.18-10.7-64.28-16.3-5.3-5.9-6.1-6.2-8.1-5.1-3.3 1.8-1.2 7 0 10.1 3 7.9 15.5 21.9 36.79 28.9 18.7 6.1 64.18 9.5 119.17-11.8 61.78-23.8 109.87-90.1 95.77-145.6C386.52 18.32 293-.18 204.57 31.22c-52.69 18.7-109.67 48.1-150.66 86.4-48.69 45.6-56.48 85.3-53.28 101.9 11.39 58.9 92.57 97.3 125.06 125.7-1.6.9-3.1 1.7-4.5 2.5-16.29 8.1-78.18 40.5-93.67 74.7-17.5 38.8 2.9 66.6 16.29 70.4 41.79 11.6 84.58-9.3 107.57-43.6s20.2-79.1 9.6-99.5c-.1-.3-.3-.5-.4-.8 4.2-2.5 8.5-5 12.8-7.5 8.29-4.9 16.39-9.4 23.49-13.3-4 10.8-6.9 23.8-8.4 42.6-1.8 22 7.3 50.5 19.1 61.7 5.2 4.9 11.49 5 15.39 5 13.8 0 20-11.4 26.89-25 8.5-16.6 16-35.9 16-35.9s-9.4 52.2 16.3 52.2c9.39 0 18.79-12.1 23-18.3v.1s.2-.4.7-1.2c1-1.5 1.5-2.4 1.5-2.4v-.3c3.8-6.5 12.1-21.4 24.59-46 16.2-31.8 31.69-71.5 31.69-71.5a201.24 201.24 0 0 0 6.2 25.8c2.8 9.5 8.7 19.9 13.4 30-3.8 5.2-6.1 8.2-6.1 8.2a.31.31 0 0 0 .1.2c-3 4-6.4 8.3-9.9 12.5-12.79 15.2-28 32.6-30 37.6-2.4 5.9-1.8 10.3 2.8 13.7 3.4 2.6 9.4 3 15.69 2.5 11.5-.8 19.6-3.6 23.5-5.4a82.2 82.2 0 0 0 20.19-10.6c12.5-9.2 20.1-22.4 19.4-39.8-.4-9.6-3.5-19.2-7.3-28.2 1.1-1.6 2.3-3.3 3.4-5C434.8 301.72 450.1 270 450.1 270a201.24 201.24 0 0 0 6.2 25.8c2.4 8.1 7.09 17 11.39 25.7-18.59 15.1-30.09 32.6-34.09 44.1-7.4 21.3-1.6 30.9 9.3 33.1 4.9 1 11.9-1.3 17.1-3.5a79.46 79.46 0 0 0 21.59-11.1c12.5-9.2 24.59-22.1 23.79-39.6-.3-7.9-2.5-15.8-5.4-23.4 15.7-6.6 36.09-10.2 62.09-7.2 55.68 6.5 66.58 41.3 64.48 55.8s-13.8 22.6-17.7 25-5.1 3.3-4.8 5.1c.5 2.6 2.3 2.5 5.6 1.9 4.6-.8 29.19-11.8 30.29-38.7 1.6-34-31.09-71.4-89-71.1zm-429.18 144.7c-18.39 20.1-44.19 27.7-55.28 21.3C54.61 451 59.31 421.42 82 400c13.8-13 31.59-25 43.39-32.4 2.7-1.6 6.6-4 11.4-6.9.8-.5 1.2-.7 1.2-.7.9-.6 1.9-1.1 2.9-1.7 8.29 30.4.3 57.2-19.1 78.3zm134.36-91.4c-6.4 15.7-19.89 55.7-28.09 53.6-7-1.8-11.3-32.3-1.4-62.3 5-15.1 15.6-33.1 21.9-40.1 10.09-11.3 21.19-14.9 23.79-10.4 3.5 5.9-12.2 49.4-16.2 59.2zm111 53c-2.7 1.4-5.2 2.3-6.4 1.6-.9-.5 1.1-2.4 1.1-2.4s13.9-14.9 19.4-21.7c3.2-4 6.9-8.7 10.89-13.9 0 .5.1 1 .1 1.6-.13 17.9-17.32 30-25.12 34.8zm85.58-19.5c-2-1.4-1.7-6.1 5-20.7 2.6-5.7 8.59-15.3 19-24.5a36.18 36.18 0 0 1 1.9 10.8c-.1 22.5-16.2 30.9-25.89 34.4z"
+                                            />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Sass</h4>
+                                    <p class="card-text">
+                                        Picked it up since I started to work on much more scalable projects than before. Used
+                                        it in multiple projects w/ and w/out Vue.js.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
+                <div class="year" data-year="2023" v-motion-slide-visible-once-right>
+                    <div class="row g-4">
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <div class="card-img-top">
+                                    <div class="icon-container">
+                                        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                class="color"
+                                                d="M14.23 12.004a2.236 2.236 0 0 1-2.235 2.236 2.236 2.236 0 0 1-2.236-2.236 2.236 2.236 0 0 1 2.235-2.236 2.236 2.236 0 0 1 2.236 2.236zm2.648-10.69c-1.346 0-3.107.96-4.888 2.622-1.78-1.653-3.542-2.602-4.887-2.602-.41 0-.783.093-1.106.278-1.375.793-1.683 3.264-.973 6.365C1.98 8.917 0 10.42 0 12.004c0 1.59 1.99 3.097 5.043 4.03-.704 3.113-.39 5.588.988 6.38.32.187.69.275 1.102.275 1.345 0 3.107-.96 4.888-2.624 1.78 1.654 3.542 2.603 4.887 2.603.41 0 .783-.09 1.106-.275 1.374-.792 1.683-3.263.973-6.365C22.02 15.096 24 13.59 24 12.004c0-1.59-1.99-3.097-5.043-4.032.704-3.11.39-5.587-.988-6.38-.318-.184-.688-.277-1.092-.278zm-.005 1.09v.006c.225 0 .406.044.558.127.666.382.955 1.835.73 3.704-.054.46-.142.945-.25 1.44-.96-.236-2.006-.417-3.107-.534-.66-.905-1.345-1.727-2.035-2.447 1.592-1.48 3.087-2.292 4.105-2.295zm-9.77.02c1.012 0 2.514.808 4.11 2.28-.686.72-1.37 1.537-2.02 2.442-1.107.117-2.154.298-3.113.538-.112-.49-.195-.964-.254-1.42-.23-1.868.054-3.32.714-3.707.19-.09.4-.127.563-.132zm4.882 3.05c.455.468.91.992 1.36 1.564-.44-.02-.89-.034-1.345-.034-.46 0-.915.01-1.36.034.44-.572.895-1.096 1.345-1.565zM12 8.1c.74 0 1.477.034 2.202.093.406.582.802 1.203 1.183 1.86.372.64.71 1.29 1.018 1.946-.308.655-.646 1.31-1.013 1.95-.38.66-.773 1.288-1.18 1.87-.728.063-1.466.098-2.21.098-.74 0-1.477-.035-2.202-.093-.406-.582-.802-1.204-1.183-1.86-.372-.64-.71-1.29-1.018-1.946.303-.657.646-1.313 1.013-1.954.38-.66.773-1.286 1.18-1.868.728-.064 1.466-.098 2.21-.098zm-3.635.254c-.24.377-.48.763-.704 1.16-.225.39-.435.782-.635 1.174-.265-.656-.49-1.31-.676-1.947.64-.15 1.315-.283 2.015-.386zm7.26 0c.695.103 1.365.23 2.006.387-.18.632-.405 1.282-.66 1.933-.2-.39-.41-.783-.64-1.174-.225-.392-.465-.774-.705-1.146zm3.063.675c.484.15.944.317 1.375.498 1.732.74 2.852 1.708 2.852 2.476-.005.768-1.125 1.74-2.857 2.475-.42.18-.88.342-1.355.493-.28-.958-.646-1.956-1.1-2.98.45-1.017.81-2.01 1.085-2.964zm-13.395.004c.278.96.645 1.957 1.1 2.98-.45 1.017-.812 2.01-1.086 2.964-.484-.15-.944-.318-1.37-.5-1.732-.737-2.852-1.706-2.852-2.474 0-.768 1.12-1.742 2.852-2.476.42-.18.88-.342 1.356-.494zm11.678 4.28c.265.657.49 1.312.676 1.948-.64.157-1.316.29-2.016.39.24-.375.48-.762.705-1.158.225-.39.435-.788.636-1.18zm-9.945.02c.2.392.41.783.64 1.175.23.39.465.772.705 1.143-.695-.102-1.365-.23-2.006-.386.18-.63.406-1.282.66-1.933zM17.92 16.32c.112.493.2.968.254 1.423.23 1.868-.054 3.32-.714 3.708-.147.09-.338.128-.563.128-1.012 0-2.514-.807-4.11-2.28.686-.72 1.37-1.536 2.02-2.44 1.107-.118 2.154-.3 3.113-.54zm-11.83.01c.96.234 2.006.415 3.107.532.66.905 1.345 1.727 2.035 2.446-1.595 1.483-3.092 2.295-4.11 2.295-.22-.005-.406-.05-.553-.132-.666-.38-.955-1.834-.73-3.703.054-.46.142-.944.25-1.438zm4.56.64c.44.02.89.034 1.345.034.46 0 .915-.01 1.36-.034-.44.572-.895 1.095-1.345 1.565-.455-.47-.91-.993-1.36-1.565z"
+                                            />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">React</h4>
+                                    <p class="card-text">
+                                        Picked it up to start working on the <strong>Crystal View ERP</strong> frontend
+                                        structure @ <strong>Crystal Soft (2024)</strong>.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <div class="card-img-top">
+                                    <div class="icon-container">
+                                        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                class="color"
+                                                d="M1.125 0C.502 0 0 .502 0 1.125v21.75C0 23.498.502 24 1.125 24h21.75c.623 0 1.125-.502 1.125-1.125V1.125C24 .502 23.498 0 22.875 0zm17.363 9.75c.612 0 1.154.037 1.627.111a6.38 6.38 0 0 1 1.306.34v2.458a3.95 3.95 0 0 0-.643-.361 5.093 5.093 0 0 0-.717-.26 5.453 5.453 0 0 0-1.426-.2c-.3 0-.573.028-.819.086a2.1 2.1 0 0 0-.623.242c-.17.104-.3.229-.393.374a.888.888 0 0 0-.14.49c0 .196.053.373.156.529.104.156.252.304.443.444s.423.276.696.41c.273.135.582.274.926.416.47.197.892.407 1.266.628.374.222.695.473.963.753.268.279.472.598.614.957.142.359.214.776.214 1.253 0 .657-.125 1.21-.373 1.656a3.033 3.033 0 0 1-1.012 1.085 4.38 4.38 0 0 1-1.487.596c-.566.12-1.163.18-1.79.18a9.916 9.916 0 0 1-1.84-.164 5.544 5.544 0 0 1-1.512-.493v-2.63a5.033 5.033 0 0 0 3.237 1.2c.333 0 .624-.03.872-.09.249-.06.456-.144.623-.25.166-.108.29-.234.373-.38a1.023 1.023 0 0 0-.074-1.089 2.12 2.12 0 0 0-.537-.5 5.597 5.597 0 0 0-.807-.444 27.72 27.72 0 0 0-1.007-.436c-.918-.383-1.602-.852-2.053-1.405-.45-.553-.676-1.222-.676-2.005 0-.614.123-1.141.369-1.582.246-.441.58-.804 1.004-1.089a4.494 4.494 0 0 1 1.47-.629 7.536 7.536 0 0 1 1.77-.201zm-15.113.188h9.563v2.166H9.506v9.646H6.789v-9.646H3.375z"
+                                            />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">TypeScript</h4>
+                                    <p class="card-text">Picked it up along with React to start working at Crystal Soft.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="year" data-year="2024" v-motion-slide-visible-once-right>
+                    <div class="row g-4">
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <div class="card-img-top">
+                                    <div class="icon-container">
+                                        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                class="color"
+                                                d="M24 18.588a1.529 1.529 0 01-1.895-.72l-3.45-4.771-.5-.667-4.003 5.444a1.466 1.466 0 01-1.802.708l5.158-6.92-4.798-6.251a1.595 1.595 0 011.9.666l3.576 4.83 3.596-4.81a1.435 1.435 0 011.788-.668L21.708 7.9l-2.522 3.283a.666.666 0 000 .994l4.804 6.412zM.002 11.576l.42-2.075c1.154-4.103 5.858-5.81 9.094-3.27 1.895 1.489 2.368 3.597 2.275 5.973H1.116C.943 16.447 4.005 19.009 7.92 17.7a4.078 4.078 0 002.582-2.876c.207-.666.548-.78 1.174-.588a5.417 5.417 0 01-2.589 3.957 6.272 6.272 0 01-7.306-.933 6.575 6.575 0 01-1.64-3.858c0-.235-.08-.455-.134-.666A88.33 88.33 0 010 11.577zm1.127-.286h9.654c-.06-3.076-2.001-5.258-4.59-5.278-2.882-.04-4.944 2.094-5.071 5.264z"
+                                            />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Express</h4>
+                                    <p class="card-text">
+                                        Started diving deeper into backend web servers & DBs. First used it in CS1101 (CS 2)
+                                        course project @ AUC.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <div class="card-img-top">
+                                    <div class="icon-container">
+                                        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                class="color"
+                                                d="M23.5594 14.7228a.5269.5269 0 0 0-.0563-.1191c-.139-.2632-.4768-.3418-1.0074-.2321-1.6533.3411-2.2935.1312-2.5256-.0191 1.342-2.0482 2.445-4.522 3.0411-6.8297.2714-1.0507.7982-3.5237.1222-4.7316a1.5641 1.5641 0 0 0-.1509-.235C21.6931.9086 19.8007.0248 17.5099.0005c-1.4947-.0158-2.7705.3461-3.1161.4794a9.449 9.449 0 0 0-.5159-.0816 8.044 8.044 0 0 0-1.3114-.1278c-1.1822-.0184-2.2038.2642-3.0498.8406-.8573-.3211-4.7888-1.645-7.2219.0788C.9359 2.1526.3086 3.8733.4302 6.3043c.0409.818.5069 3.334 1.2423 5.7436.4598 1.5065.9387 2.7019 1.4334 3.582.553.9942 1.1259 1.5933 1.7143 1.7895.4474.1491 1.1327.1441 1.8581-.7279.8012-.9635 1.5903-1.8258 1.9446-2.2069.4351.2355.9064.3625 1.39.3772a.0569.0569 0 0 0 .0004.0041 11.0312 11.0312 0 0 0-.2472.3054c-.3389.4302-.4094.5197-1.5002.7443-.3102.064-1.1344.2339-1.1464.8115-.0025.1224.0329.2309.0919.3268.2269.4231.9216.6097 1.015.6331 1.3345.3335 2.5044.092 3.3714-.6787-.017 2.231.0775 4.4174.3454 5.0874.2212.5529.7618 1.9045 2.4692 1.9043.2505 0 .5263-.0291.8296-.0941 1.7819-.3821 2.5557-1.1696 2.855-2.9059.1503-.8707.4016-2.8753.5388-4.1012.0169-.0703.0357-.1207.057-.1362.0007-.0005.0697-.0471.4272.0307a.3673.3673 0 0 0 .0443.0068l.2539.0223.0149.001c.8468.0384 1.9114-.1426 2.5312-.4308.6438-.2988 1.8057-1.0323 1.5951-1.6698zM2.371 11.8765c-.7435-2.4358-1.1779-4.8851-1.2123-5.5719-.1086-2.1714.4171-3.6829 1.5623-4.4927 1.8367-1.2986 4.8398-.5408 6.108-.13-.0032.0032-.0066.0061-.0098.0094-2.0238 2.044-1.9758 5.536-1.9708 5.7495-.0002.0823.0066.1989.0162.3593.0348.5873.0996 1.6804-.0735 2.9184-.1609 1.1504.1937 2.2764.9728 3.0892.0806.0841.1648.1631.2518.2374-.3468.3714-1.1004 1.1926-1.9025 2.1576-.5677.6825-.9597.5517-1.0886.5087-.3919-.1307-.813-.5871-1.2381-1.3223-.4796-.839-.9635-2.0317-1.4155-3.5126zm6.0072 5.0871c-.1711-.0428-.3271-.1132-.4322-.1772.0889-.0394.2374-.0902.4833-.1409 1.2833-.2641 1.4815-.4506 1.9143-1.0002.0992-.126.2116-.2687.3673-.4426a.3549.3549 0 0 0 .0737-.1298c.1708-.1513.2724-.1099.4369-.0417.156.0646.3078.26.3695.4752.0291.1016.0619.2945-.0452.4444-.9043 1.2658-2.2216 1.2494-3.1676 1.0128zm2.094-3.988-.0525.141c-.133.3566-.2567.6881-.3334 1.003-.6674-.0021-1.3168-.2872-1.8105-.8024-.6279-.6551-.9131-1.5664-.7825-2.5004.1828-1.3079.1153-2.4468.079-3.0586-.005-.0857-.0095-.1607-.0122-.2199.2957-.2621 1.6659-.9962 2.6429-.7724.4459.1022.7176.4057.8305.928.5846 2.7038.0774 3.8307-.3302 4.7363-.084.1866-.1633.3629-.2311.5454zm7.3637 4.5725c-.0169.1768-.0358.376-.0618.5959l-.146.4383a.3547.3547 0 0 0-.0182.1077c-.0059.4747-.054.6489-.115.8693-.0634.2292-.1353.4891-.1794 1.0575-.11 1.4143-.8782 2.2267-2.4172 2.5565-1.5155.3251-1.7843-.4968-2.0212-1.2217a6.5824 6.5824 0 0 0-.0769-.2266c-.2154-.5858-.1911-1.4119-.1574-2.5551.0165-.5612-.0249-1.9013-.3302-2.6462.0044-.2932.0106-.5909.019-.8918a.3529.3529 0 0 0-.0153-.1126 1.4927 1.4927 0 0 0-.0439-.208c-.1226-.4283-.4213-.7866-.7797-.9351-.1424-.059-.4038-.1672-.7178-.0869.067-.276.1831-.5875.309-.9249l.0529-.142c.0595-.16.134-.3257.213-.5012.4265-.9476 1.0106-2.2453.3766-5.1772-.2374-1.0981-1.0304-1.6343-2.2324-1.5098-.7207.0746-1.3799.3654-1.7088.5321a5.6716 5.6716 0 0 0-.1958.1041c.0918-1.1064.4386-3.1741 1.7357-4.4823a4.0306 4.0306 0 0 1 .3033-.276.3532.3532 0 0 0 .1447-.0644c.7524-.5706 1.6945-.8506 2.802-.8325.4091.0067.8017.0339 1.1742.081 1.939.3544 3.2439 1.4468 4.0359 2.3827.8143.9623 1.2552 1.9315 1.4312 2.4543-1.3232-.1346-2.2234.1268-2.6797.779-.9926 1.4189.543 4.1729 1.2811 5.4964.1353.2426.2522.4522.2889.5413.2403.5825.5515.9713.7787 1.2552.0696.087.1372.1714.1885.245-.4008.1155-1.1208.3825-1.0552 1.717-.0123.1563-.0423.4469-.0834.8148-.0461.2077-.0702.4603-.0994.7662zm.8905-1.6211c-.0405-.8316.2691-.9185.5967-1.0105a2.8566 2.8566 0 0 0 .135-.0406 1.202 1.202 0 0 0 .1342.103c.5703.3765 1.5823.4213 3.0068.1344-.2016.1769-.5189.3994-.9533.6011-.4098.1903-1.0957.333-1.7473.3636-.7197.0336-1.0859-.0807-1.1721-.151zm.5695-9.2712c-.0059.3508-.0542.6692-.1054 1.0017-.055.3576-.112.7274-.1264 1.1762-.0142.4368.0404.8909.0932 1.3301.1066.887.216 1.8003-.2075 2.7014a3.5272 3.5272 0 0 1-.1876-.3856c-.0527-.1276-.1669-.3326-.3251-.6162-.6156-1.1041-2.0574-3.6896-1.3193-4.7446.3795-.5427 1.3408-.5661 2.1781-.463zm.2284 7.0137a12.3762 12.3762 0 0 0-.0853-.1074l-.0355-.0444c.7262-1.1995.5842-2.3862.4578-3.4385-.0519-.4318-.1009-.8396-.0885-1.2226.0129-.4061.0666-.7543.1185-1.0911.0639-.415.1288-.8443.1109-1.3505.0134-.0531.0188-.1158.0118-.1902-.0457-.4855-.5999-1.938-1.7294-3.253-.6076-.7073-1.4896-1.4972-2.6889-2.0395.5251-.1066 1.2328-.2035 2.0244-.1859 2.0515.0456 3.6746.8135 4.8242 2.2824a.908.908 0 0 1 .0667.1002c.7231 1.3556-.2762 6.2751-2.9867 10.5405zm-8.8166-6.1162c-.025.1794-.3089.4225-.6211.4225a.5821.5821 0 0 1-.0809-.0056c-.1873-.026-.3765-.144-.5059-.3156-.0458-.0605-.1203-.178-.1055-.2844.0055-.0401.0261-.0985.0925-.1488.1182-.0894.3518-.1226.6096-.0867.3163.0441.6426.1938.6113.4186zm7.9305-.4114c.0111.0792-.049.201-.1531.3102-.0683.0717-.212.1961-.4079.2232a.5456.5456 0 0 1-.075.0052c-.2935 0-.5414-.2344-.5607-.3717-.024-.1765.2641-.3106.5611-.352.297-.0414.6111.0088.6356.1851z"
+                                            />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">PostgreSQL</h4>
+                                    <p class="card-text">
+                                        Started diving deeper into backend web servers & DBs. First used it in CS1101 (CS 2)
+                                        course project @ AUC.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <div class="card-img-top">
+                                    <div class="icon-container">
+                                        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                class="color"
+                                                d="M21.693 3.162H3.33L0 6.49v14.348h20.671L24 17.51V3.162zM12.785 18.4l-1.562.728-1.35-2.217c-.196.057-.499.09-.924.09-1.579 0-2.683-.425-3.305-1.276-.622-.85-.932-2.2-.932-4.033 0-1.84.319-3.206.949-4.098.63-.892 1.726-1.341 3.288-1.341 1.562 0 2.658.441 3.28 1.333.63.883.94 2.25.94 4.098 0 1.219-.13 2.2-.384 2.945-.261.752-.679 1.325-1.268 1.718zm4.736-1.587c-.858 0-1.447-.196-1.766-.59-.32-.392-.483-1.136-.483-2.232v-3.534H14.11V9.051h1.162V6.843h1.644V9.05h2.094v1.415h-2.094v3.346c0 .622.05 1.03.14 1.227.09.204.326.303.695.303l1.243-.05.073 1.326c-.67.13-1.186.196-1.546.196zm-8.58-9.08c-.95 0-1.604.311-1.963.94-.352.63-.532 1.629-.532 3.011 0 1.374.172 2.364.515 2.953.344.589 1.006.892 1.98.892.973 0 1.628-.295 1.971-.876.335-.58.507-1.57.507-2.953 0-1.39-.172-2.396-.523-3.026-.352-.63-1.006-.94-1.955-.94Z"
+                                            />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Qt</h4>
+                                    <p class="card-text">
+                                        Learnt it in my CS1101 (CS 2) course @ AUC. Used it mainly to build the
+                                        <strong>Clash Of Clans Tower Defense game (2024)</strong> client for the course
+                                        project.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <div class="card-img-top">
+                                    <div class="icon-container">
+                                        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                class="color"
+                                                d="M12.0111 0c-.85 0-1.5392.6891-1.5392 1.5392 0 .8501.6891 1.5393 1.5392 1.5393.595 0 1.11-.338 1.3662-.832 2.2208 1.2675 3.847 5.4728 3.847 10.3623 0 2.0715-.2891 4.056-.825 5.7685a.3215.3215 0 0 0 .2107.403.322.322 0 0 0 .4033-.2111c.5558-1.7763.8542-3.8251.8542-5.9604 0-5.1927-1.7717-9.686-4.3206-11.0027.001-.0223.0035-.0443.0035-.0669 0-.85-.6891-1.5392-1.5393-1.5392zm0 .6432a.896.896 0 1 1 0 1.792.896.896 0 1 1 0-1.792zm-5.486 4.3052c-2.067.0074-3.6473.6646-4.3885 1.9485-.7375 1.2774-.5267 2.971.5113 4.7813a.3217.3217 0 0 0 .558-.32C2.271 9.7274 2.089 8.266 2.6938 7.2185c.821-1.422 3.033-1.9552 5.9321-1.4271a.3216.3216 0 0 0 .1153-.6329c-.784-.1428-1.5271-.2125-2.216-.21zm11.0522.0176a.3216.3216 0 0 0-.0084.6432c1.8337.0239 3.1556.5956 3.7502 1.6256.8192 1.419.1798 3.5947-1.7182 5.837a.322.322 0 0 0 .0377.4535.3215.3215 0 0 0 .4532-.0377c2.0535-2.426 2.7708-4.8661 1.7845-6.5744-.7257-1.257-2.26-1.9207-4.299-1.9472zm-2.6984.2924a.3225.3225 0 0 0-.0647.0072c-1.8568.3979-3.8333 1.1755-5.7314 2.2714-4.5699 2.6384-7.5924 6.4948-7.3601 9.3717-.4726.2628-.7928.7664-.7928 1.3455 0 .85.6892 1.5392 1.5393 1.5392.85 0 1.5392-.6891 1.5392-1.5392 0-.8501-.6891-1.5393-1.5392-1.5393-.038 0-.0754.003-.1128.0057-.1002-2.5597 2.7434-6.1412 7.048-8.6265 1.8413-1.063 3.7551-1.8163 5.5445-2.1997a.3217.3217 0 0 0-.07-.636zm-2.8787 6.2364a1.1192 1.1192 0 0 0-.2243.0255c-.6012.1301-.983.7225-.8533 1.3238.1302.6012.7226.9832 1.3238.8533.6012-.1302.9832-.7226.8533-1.3238-.1139-.526-.5816-.8844-1.0995-.8788zM4.532 13.341a.321.321 0 0 0-.2318.0835.3214.3214 0 0 0-.0214.4542c1.2682 1.3936 2.9157 2.701 4.7946 3.7857 4.4146 2.5489 9.1056 3.2849 11.5608 1.8392a1.53 1.53 0 0 0 .8966.2899c.8501 0 1.5392-.6891 1.5392-1.5392 0-.8501-.689-1.5393-1.5392-1.5393-.85 0-1.5392.6892-1.5392 1.5393 0 .276.0737.5344.201.7584-2.2448 1.214-6.631.5002-10.7976-1.9054-1.8228-1.0524-3.418-2.3181-4.6404-3.6614a.3206.3206 0 0 0-.2226-.1049zm-2.0628 4.0172a.896.896 0 1 1 0 1.792.896.896 0 1 1 0-1.792zm19.0616 0a.896.896 0 1 1 0 1.792.891.891 0 0 1-.5864-.2194c-.0025-.004-.0039-.0083-.0066-.0123a.3195.3195 0 0 0-.0957-.0914.896.896 0 0 1 .6887-1.4689zm-14.0045 1.368a.3215.3215 0 0 0-.3207.4296C8.2793 22.154 10.036 24 12.0111 24c1.4406 0 2.7735-.9822 3.8128-2.711a.3215.3215 0 0 0-.11-.4413.3219.3219 0 0 0-.4415.11c-.934 1.5537-2.0812 2.399-3.2613 2.399-1.6407 0-3.2075-1.6465-4.2-4.4179a.3216.3216 0 0 0-.2848-.2126z"
+                                            />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Electron</h4>
+                                    <p class="card-text">
+                                        Picked it up to satisfy requirements of some potential projects. First used it to
+                                        build the desktop version of the <strong>Beta LMS platform (2024)</strong>.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <div class="card-img-top">
+                                    <div class="icon-container">
+                                        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                class="color"
+                                                d="M12.001,4.8c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 C13.666,10.618,15.027,12,18.001,12c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C16.337,6.182,14.976,4.8,12.001,4.8z M6.001,12c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 c1.177,1.194,2.538,2.576,5.512,2.576c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C10.337,13.382,8.976,12,6.001,12z"
+                                            />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">TailwindCSS</h4>
+                                    <p class="card-text">
+                                        Picked it up as a replacement for Bootstrap. First used it in the Beta LMS project.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <div class="card-img-top">
+                                    <div class="icon-container">
+                                        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                class="color"
+                                                d="M1.811 10.231c-.047 0-.058-.023-.035-.059l.246-.315c.023-.035.081-.058.128-.058h4.172c.046 0 .058.035.035.07l-.199.303c-.023.036-.082.07-.117.07zM.047 11.306c-.047 0-.059-.023-.035-.058l.245-.316c.023-.035.082-.058.129-.058h5.328c.047 0 .07.035.058.07l-.093.28c-.012.047-.058.07-.105.07zm2.828 1.075c-.047 0-.059-.035-.035-.07l.163-.292c.023-.035.07-.07.117-.07h2.337c.047 0 .07.035.07.082l-.023.28c0 .047-.047.082-.082.082zm12.129-2.36c-.736.187-1.239.327-1.963.514-.176.046-.187.058-.34-.117-.174-.199-.303-.327-.548-.444-.737-.362-1.45-.257-2.115.175-.795.514-1.204 1.274-1.192 2.22.011.935.654 1.706 1.577 1.835.795.105 1.46-.175 1.987-.77.105-.13.198-.27.315-.434H10.47c-.245 0-.304-.152-.222-.35.152-.362.432-.97.596-1.274a.315.315 0 01.292-.187h4.253c-.023.316-.023.631-.07.947a4.983 4.983 0 01-.958 2.29c-.841 1.11-1.94 1.8-3.33 1.986-1.145.152-2.209-.07-3.143-.77-.865-.655-1.356-1.52-1.484-2.595-.152-1.274.222-2.419.993-3.424.83-1.086 1.928-1.776 3.272-2.02 1.098-.2 2.15-.07 3.096.571.62.41 1.063.97 1.356 1.648.07.105.023.164-.117.2m3.868 6.461c-1.064-.024-2.034-.328-2.852-1.029a3.665 3.665 0 01-1.262-2.255c-.21-1.32.152-2.489.947-3.529.853-1.122 1.881-1.706 3.272-1.95 1.192-.21 2.314-.095 3.33.595.923.63 1.496 1.484 1.648 2.605.198 1.578-.257 2.863-1.344 3.962-.771.783-1.718 1.273-2.805 1.495-.315.06-.63.07-.934.106zm2.78-4.72c-.011-.153-.011-.27-.034-.387-.21-1.157-1.274-1.81-2.384-1.554-1.087.245-1.788.935-2.045 2.033-.21.912.234 1.835 1.075 2.21.643.28 1.285.244 1.905-.07.923-.48 1.425-1.228 1.484-2.233z"
+                                            />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Go</h4>
+                                    <p class="card-text">
+                                        Currently learning it alongside GoFiber to build a more performant and comprehensive
+                                        backend for the Beta LMS project.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-        <div class="year" data-year="2022" v-motion-slide-visible-once-right>
-          <div class="row g-4">
-            <div class="col-lg-4">
-              <div class="card">
-                <div class="card-img-top">
-                  <div class="icon-container">
-                    <svg
-                      class="vue-logo color"
-                      version="1.1"
-                      viewBox="0 0 261.76 226.69"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <g transform="matrix(1.3333 0 0 -1.3333 -76.311 313.34)">
-                        <g transform="translate(178.06 235.01)">
-                          <path
-                            d="m0 0-22.669-39.264-22.669 39.264h-75.491l98.16-170.02 98.16 170.02z"
-                            fill="#dc143c"
-                            class="color"
-                          />
-                        </g>
-                        <g transform="translate(178.06 235.01)">
-                          <path
-                            d="m0 0-22.669-39.264-22.669 39.264h-36.227l58.896-102.01 58.896 102.01z"
-                            fill="#ffffff85"
-                            class="color"
-                          />
-                        </g>
-                      </g>
-                    </svg>
-                  </div>
-                </div>
-                <div class="card-body">
-                  <h4 class="card-title">Vue JS</h4>
-                  <p class="card-text">
-                    I have been using this JS framework for almost
-                    <strong><em>a year</em></strong> in multiple projects (this
-                    website is one of them).
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4">
-              <div class="card">
-                <div class="card-img-top">
-                  <div class="icon-container">
-                    <svg
-                      class="color"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 640 512"
-                    >
-                      <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                      <path
-                        d="M301.84 378.92c-.3.6-.6 1.08 0 0zm249.13-87a131.16 131.16 0 0 0-58 13.5c-5.9-11.9-12-22.3-13-30.1-1.2-9.1-2.5-14.5-1.1-25.3s7.7-26.1 7.6-27.2-1.4-6.6-14.3-6.7-24 2.5-25.29 5.9a122.83 122.83 0 0 0-5.3 19.1c-2.3 11.7-25.79 53.5-39.09 75.3-4.4-8.5-8.1-16-8.9-22-1.2-9.1-2.5-14.5-1.1-25.3s7.7-26.1 7.6-27.2-1.4-6.6-14.29-6.7-24 2.5-25.3 5.9-2.7 11.4-5.3 19.1-33.89 77.3-42.08 95.4c-4.2 9.2-7.8 16.6-10.4 21.6-.4.8-.7 1.3-.9 1.7.3-.5.5-1 .5-.8-2.2 4.3-3.5 6.7-3.5 6.7v.1c-1.7 3.2-3.6 6.1-4.5 6.1-.6 0-1.9-8.4.3-19.9 4.7-24.2 15.8-61.8 15.7-63.1-.1-.7 2.1-7.2-7.3-10.7-9.1-3.3-12.4 2.2-13.2 2.2s-1.4 2-1.4 2 10.1-42.4-19.39-42.4c-18.4 0-44 20.2-56.58 38.5-7.9 4.3-25 13.6-43 23.5-6.9 3.8-14 7.7-20.7 11.4-.5-.5-.9-1-1.4-1.5-35.79-38.2-101.87-65.2-99.07-116.5 1-18.7 7.5-67.8 127.07-127.4 98-48.8 176.35-35.4 189.84-5.6 19.4 42.5-41.89 121.6-143.66 133-38.79 4.3-59.18-10.7-64.28-16.3-5.3-5.9-6.1-6.2-8.1-5.1-3.3 1.8-1.2 7 0 10.1 3 7.9 15.5 21.9 36.79 28.9 18.7 6.1 64.18 9.5 119.17-11.8 61.78-23.8 109.87-90.1 95.77-145.6C386.52 18.32 293-.18 204.57 31.22c-52.69 18.7-109.67 48.1-150.66 86.4-48.69 45.6-56.48 85.3-53.28 101.9 11.39 58.9 92.57 97.3 125.06 125.7-1.6.9-3.1 1.7-4.5 2.5-16.29 8.1-78.18 40.5-93.67 74.7-17.5 38.8 2.9 66.6 16.29 70.4 41.79 11.6 84.58-9.3 107.57-43.6s20.2-79.1 9.6-99.5c-.1-.3-.3-.5-.4-.8 4.2-2.5 8.5-5 12.8-7.5 8.29-4.9 16.39-9.4 23.49-13.3-4 10.8-6.9 23.8-8.4 42.6-1.8 22 7.3 50.5 19.1 61.7 5.2 4.9 11.49 5 15.39 5 13.8 0 20-11.4 26.89-25 8.5-16.6 16-35.9 16-35.9s-9.4 52.2 16.3 52.2c9.39 0 18.79-12.1 23-18.3v.1s.2-.4.7-1.2c1-1.5 1.5-2.4 1.5-2.4v-.3c3.8-6.5 12.1-21.4 24.59-46 16.2-31.8 31.69-71.5 31.69-71.5a201.24 201.24 0 0 0 6.2 25.8c2.8 9.5 8.7 19.9 13.4 30-3.8 5.2-6.1 8.2-6.1 8.2a.31.31 0 0 0 .1.2c-3 4-6.4 8.3-9.9 12.5-12.79 15.2-28 32.6-30 37.6-2.4 5.9-1.8 10.3 2.8 13.7 3.4 2.6 9.4 3 15.69 2.5 11.5-.8 19.6-3.6 23.5-5.4a82.2 82.2 0 0 0 20.19-10.6c12.5-9.2 20.1-22.4 19.4-39.8-.4-9.6-3.5-19.2-7.3-28.2 1.1-1.6 2.3-3.3 3.4-5C434.8 301.72 450.1 270 450.1 270a201.24 201.24 0 0 0 6.2 25.8c2.4 8.1 7.09 17 11.39 25.7-18.59 15.1-30.09 32.6-34.09 44.1-7.4 21.3-1.6 30.9 9.3 33.1 4.9 1 11.9-1.3 17.1-3.5a79.46 79.46 0 0 0 21.59-11.1c12.5-9.2 24.59-22.1 23.79-39.6-.3-7.9-2.5-15.8-5.4-23.4 15.7-6.6 36.09-10.2 62.09-7.2 55.68 6.5 66.58 41.3 64.48 55.8s-13.8 22.6-17.7 25-5.1 3.3-4.8 5.1c.5 2.6 2.3 2.5 5.6 1.9 4.6-.8 29.19-11.8 30.29-38.7 1.6-34-31.09-71.4-89-71.1zm-429.18 144.7c-18.39 20.1-44.19 27.7-55.28 21.3C54.61 451 59.31 421.42 82 400c13.8-13 31.59-25 43.39-32.4 2.7-1.6 6.6-4 11.4-6.9.8-.5 1.2-.7 1.2-.7.9-.6 1.9-1.1 2.9-1.7 8.29 30.4.3 57.2-19.1 78.3zm134.36-91.4c-6.4 15.7-19.89 55.7-28.09 53.6-7-1.8-11.3-32.3-1.4-62.3 5-15.1 15.6-33.1 21.9-40.1 10.09-11.3 21.19-14.9 23.79-10.4 3.5 5.9-12.2 49.4-16.2 59.2zm111 53c-2.7 1.4-5.2 2.3-6.4 1.6-.9-.5 1.1-2.4 1.1-2.4s13.9-14.9 19.4-21.7c3.2-4 6.9-8.7 10.89-13.9 0 .5.1 1 .1 1.6-.13 17.9-17.32 30-25.12 34.8zm85.58-19.5c-2-1.4-1.7-6.1 5-20.7 2.6-5.7 8.59-15.3 19-24.5a36.18 36.18 0 0 1 1.9 10.8c-.1 22.5-16.2 30.9-25.89 34.4z"
-                      />
-                    </svg>
-                  </div>
-                </div>
-                <div class="card-body">
-                  <h4 class="card-title">Sass</h4>
-                  <p class="card-text">
-                    Picked it up since I started to work on much more scalable
-                    projects than before. Used it in multiple projects with and
-                    without Vue JS.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+    </section>
 </template>
 
 <script>
 export default {
-  name: "SkillsView",
-  props: ["themeColor"],
-  data() {
-    return {
-      current_year:
-        new Date().getMonth() < 6
-          ? new Date().getFullYear()
-          : new Date().getFullYear() + 1,
-    };
-  },
-  mounted() {
-    Array.from(document.getElementsByClassName("color")).forEach((element) => {
-      element.classList.add(this.themeColor);
-    });
-  },
+    name: "SkillsView",
+    props: ["themeColor"],
+    data() {
+        return {
+            current_year: new Date().getMonth() < 6 ? new Date().getFullYear() : new Date().getFullYear() + 1,
+        };
+    },
+    mounted() {
+        Array.from(document.getElementsByClassName("color")).forEach((element) => {
+            element.classList.add(this.themeColor);
+        });
+    },
 };
 </script>
 
@@ -451,151 +548,150 @@ export default {
 @import "../assets/scss/_variables.scss";
 
 .container {
-  padding-top: 4rem;
-  padding-bottom: 1rem;
-  .section-title {
-    font-weight: bold;
-    @include generateColors("box-shadow", "inset 0 0 0 0");
-    //  box-shadow: inset 0 0 0 0 nth($list: $colors, $n: $i);
-    @include generateColorsLighten("color", 5);
-    // color: lighten($color: $my-red-color, $amount: 5);
-    transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-    width: fit-content;
-    &:hover {
-      @include generateColors("box-shadow", "inset 15ch 0 0 0");
-      // box-shadow: inset 15ch 0 0 0 $my-red-color;
-      color: white;
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+    .section-title {
+        font-weight: bold;
+        @include generateColors("box-shadow", "inset 0 0 0 0");
+        //  box-shadow: inset 0 0 0 0 nth($list: $colors, $n: $i);
+        @include generateColorsLighten("color", 5);
+        // color: lighten($color: $my-red-color, $amount: 5);
+        transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        width: fit-content;
+        &:hover {
+            @include generateColors("box-shadow", "inset 15ch 0 0 0");
+            // box-shadow: inset 15ch 0 0 0 $my-red-color;
+            color: white;
+        }
     }
-  }
-  a {
-    @include generateColorsLighten("color", 15);
-    // color: lighten($color: $my-red-color, $amount: 15);
-    text-decoration: none;
-    transition: 0.2s;
-    &:hover {
-      @include generateColorsLighten("color", 7);
-      // color: lighten($color: $my-red-color, $amount: 7);
+    a {
+        @include generateColorsLighten("color", 15);
+        // color: lighten($color: $my-red-color, $amount: 15);
+        text-decoration: none;
+        transition: 0.2s;
+        &:hover {
+            @include generateColorsLighten("color", 7);
+            // color: lighten($color: $my-red-color, $amount: 7);
+        }
     }
-  }
 }
 
 .timeline {
-  margin-left: 3rem;
-  position: relative;
-  @include generateColors("color");
-  &::before {
-    content: "";
-    height: 102%;
-    width: 5px;
-    // color: white;
-    background-color: currentColor;
-    // background-color: $my-red-color;
-    position: absolute;
-    top: -10px;
-    left: 0;
-    border-radius: 2px;
-  }
-  .year {
+    margin-left: 3rem;
     position: relative;
-    padding-left: 2.5rem;
-    margin-bottom: 2.5rem;
-    color: white;
+    @include generateColors("color");
     &::before {
-      content: attr(data-year);
-      position: absolute;
-      top: 40px;
-      left: -55px;
-      font-weight: bold;
-      font-style: italic;
-      letter-spacing: 1.2px;
+        content: "";
+        height: 102%;
+        width: 5px;
+        // color: white;
+        background-color: currentColor;
+        // background-color: $my-red-color;
+        position: absolute;
+        top: -10px;
+        left: 0;
+        border-radius: 2px;
     }
-    &::after {
-      content: "";
-      position: absolute;
-      top: 43px;
-      left: -5px;
-      width: 15px;
-      height: 15px;
-      border-radius: 50%;
-      border: 2px solid darken($color: $main-bg-color, $amount: 5);
-      background-color: #ffffff;
-    }
-    .card {
-      background: lighten($color: $main-bg-color, $amount: 5);
-      border: 3px solid darken($color: $main-bg-color, $amount: 5);
-      padding: 1rem;
-      width: 100%;
-      height: 100%;
-      .card-img-top {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        height: 100px;
-        .icon-container {
-          width: fit-content;
-          background-color: white;
-          padding: 0.75rem;
-          border-radius: 50%;
-          box-shadow: 5px 5px 3px 0px darken($color: $main-bg-color, $amount: 5);
-          transition: 0.2s;
-          &:hover {
-            box-shadow: 7px 7px 3px 0px
-              darken($color: $main-bg-color, $amount: 5);
-            transform: scale(1.05);
-          }
-          svg {
-            padding: 2px;
-            @include generateColors("fill");
-            // fill: $my-red-color;
-            width: 50px;
-            height: 50px;
-            path {
-              @include generateColors("fill");
-              // fill: $my-red-color;
-            }
-            rect {
-              @include generateColors("fill");
-              // fill: $my-red-color;
-            }
-            &.vue-logo {
-              g g:nth-child(2) path {
-                @include generateColorsLighten("fill", 20);
-                // fill: lighten($color: $my-red-color, $amount: 20);
-              }
-            }
-            &.cpp-logo {
-              path:nth-child(1) {
-                @include generateColorsLighten("fill", 7);
-              }
-              path:nth-child(2) {
-                @include generateColors("fill");
-              }
-              path:nth-child(3) {
-                @include generateColorsLighten("fill", 15);
-              }
-            }
-          }
+    .year {
+        position: relative;
+        padding-left: 2.5rem;
+        margin-bottom: 2.5rem;
+        color: white;
+        &::before {
+            content: attr(data-year);
+            position: absolute;
+            top: 40px;
+            left: -55px;
+            font-weight: bold;
+            font-style: italic;
+            letter-spacing: 1.2px;
         }
-      }
-      .card-body {
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        .card-text {
-          font-size: 0.9rem;
-          color: rgba(255, 255, 255, 0.7);
+        &::after {
+            content: "";
+            position: absolute;
+            top: 43px;
+            left: -5px;
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            border: 2px solid darken($color: $main-bg-color, $amount: 5);
+            background-color: #ffffff;
         }
-      }
+        .card {
+            background: lighten($color: $main-bg-color, $amount: 5);
+            border: 3px solid darken($color: $main-bg-color, $amount: 5);
+            padding: 1rem;
+            width: 100%;
+            height: 100%;
+            .card-img-top {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                height: 100px;
+                .icon-container {
+                    width: fit-content;
+                    background-color: white;
+                    padding: 0.75rem;
+                    border-radius: 50%;
+                    box-shadow: 5px 5px 3px 0px darken($color: $main-bg-color, $amount: 5);
+                    transition: 0.2s;
+                    &:hover {
+                        box-shadow: 7px 7px 3px 0px darken($color: $main-bg-color, $amount: 5);
+                        transform: scale(1.05);
+                    }
+                    svg {
+                        padding: 2px;
+                        @include generateColors("fill");
+                        // fill: $my-red-color;
+                        width: 50px;
+                        height: 50px;
+                        path {
+                            @include generateColors("fill");
+                            // fill: $my-red-color;
+                        }
+                        rect {
+                            @include generateColors("fill");
+                            // fill: $my-red-color;
+                        }
+                        &.vue-logo {
+                            g g:nth-child(2) path {
+                                @include generateColorsLighten("fill", 20);
+                                // fill: lighten($color: $my-red-color, $amount: 20);
+                            }
+                        }
+                        &.cpp-logo {
+                            path:nth-child(1) {
+                                @include generateColorsLighten("fill", 7);
+                            }
+                            path:nth-child(2) {
+                                @include generateColors("fill");
+                            }
+                            path:nth-child(3) {
+                                @include generateColorsLighten("fill", 15);
+                            }
+                        }
+                    }
+                }
+            }
+            .card-body {
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                .card-text {
+                    font-size: 0.9rem;
+                    color: rgba(255, 255, 255, 0.7);
+                }
+            }
+        }
     }
-  }
 }
 
 @media (max-width: 991.98px) {
-  .timeline {
-    margin-left: 4rem;
-    margin-right: 1rem;
-  }
+    .timeline {
+        margin-left: 4rem;
+        margin-right: 1rem;
+    }
 }
 </style>
