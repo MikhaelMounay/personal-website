@@ -53,7 +53,7 @@ export default {
     return {
       typeValue: "",
       typeStatus: false,
-      typeArray: ["WEB DEVELOPER", "STEMer", "AUCian", "ESPORTS LOVER"],
+      typeArray: ["SOFTWARE DEVELOPER", "AUCian", "STEMer", "ESPORTS LOVER"],
       typingSpeed: 100,
       erasingSpeed: 100,
       newTextDelay: 1000,
