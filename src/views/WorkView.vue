@@ -1309,7 +1309,7 @@
                                         </div>
                                         <p class="fst-italic px-5 text-center">
                                             A Qt-based desktop clone for the popular mobile game Clash of Clans by Supercell.
-                                            It was made as team project for my Fundamentals of Computing II course at AUC.
+                                            It was made as a team project for my Fundamentals of Computing II course at AUC.
                                         </p>
                                         <p class="text-center">
                                             <a
