@@ -7,7 +7,7 @@
                     <p class="about-text">
                         I'm an,
                         <span class="keyword">AUCian</span> & <span class="keyword">ex-STEMer</span> software developer based
-                        in Egypt. I have an enthusiatic passion for computer science. I found it at the age of 13, and I will
+                        in Egypt. I have an enthusiastic passion for computer science. I found it at the age of 13, and I will
                         follow it till I RIP :). I've been working on my own to grow this passion, and I'm currently
                         continuing this work studying <span class="keyword">Computer Engineering</span> @
                         <!-- <span class="DCollege"> -->
